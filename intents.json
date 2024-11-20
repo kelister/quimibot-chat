@@ -1,0 +1,763 @@
+{"intents":[
+    {
+
+        "tag": "saludo",
+        "patterns": [
+            "hola", "¡hola!", "holaa", "holaaa", "qué tal", "cómo estás", "buenos días", 
+            "buenas tardes", "buenas noches", "saludos", "qué onda", "qué pasa", 
+            "qué hay", "qué hubo", "qué más", "hey", "hello", "hi", "hola quimibot", 
+            "buenas", "qué tal quimibot", "cómo va", "qué cuentas", "aló", "holis"
+        ],
+        "responses": ["¡Hola! Soy Quimibot, tu asistente para todo lo relacionado con la química. ¿En qué puedo ayudarte hoy?", "¡Hola, científico en potencia! ¿Listo para sumergirte en algunos conceptos químicos?", "¡Saludos! Espero que estés listo para explorar el mundo de la química. ¿Qué quieres aprender hoy?", "¡Buenos días! Quimibot al habla. Estoy aquí para responder a tus preguntas de química."]
+
+    },
+    {
+        "tag": "atomo",
+        "patterns": [
+            "que es el atomo", "que es el átomo", "háblame sobre el átomo", "átomo", 
+            "cómo es un átomo", "cuéntame sobre el átomo", "dame información sobre el átomo", 
+            "qué sabes del átomo", "define átomo", "concepto de átomo", 
+            "estructura del átomo", "partes del átomo", "átomo definición", 
+            "explica el átomo", "qué es un átomo en química", 
+            "dime qué es el átomo", "química átomo", "átomo de qué está hecho", 
+            "qué constituye un átomo", "qué contiene un átomo", "atomo", "que es el atomo", "hablame sobre el atomo", "que es un atomo", 
+        "como es un atomo", "cuentame sobre el atomo", "dame informacion sobre el atomo", 
+        "que sabes del atomo", "define atomo", "concepto de atomo", 
+        "estructura del atomo", "partes del atomo", "atomo definicion", 
+        "explica el atomo", "que es un atomo en quimica", 
+        "dime que es el atomo", "quimica atomo", "atomo de que esta hecho", 
+        "que constituye un atomo", "que contiene un atomo"
+        ],
+        "responses": ["Parte más pequeña de una sustancia que no se puede descomponer químicamente. Cada átomo tiene un núcleo (centro) compuesto de protones (partículas positivas) y neutrones (partículas sin carga). Los electrones (partículas negativas) se mueven alrededor del núcleo."]
+    },
+    {
+        "tag": "reaccionQuimica",
+        "patterns": ["que es una reaccion quimica", "hablame sobre las reacciones quimicas", "escribeme sobre las reacciones quimicas"],
+        "responses": ["Una reacción química, también llamada cambio químico o fenómeno químico, es todo proceso termodinámico en el cual dos o más especies químicas o sustancias, se transforman, cambiando su estructura molecular y sus enlaces, en otras sustancias llamadas productos.​ Los reactantes pueden ser elementos o compuestos."]
+    },
+    {
+        "tag": "difCompuestoMezcla",
+        "patterns": ["que diferencia una mezcla de un compuesto", "que diferencia un compuesto de un mezcla", "dime las diferencias entre un compuesto y una mezcla"],
+        "responses": ["Un compuesto es una sustancia formada por la combinación química de dos o más elementos en proporciones fijas, mientras que una mezcla es una combinación física de dos o más sustancias que no reaccionan químicamente entre sí y pueden separarse fácilmente."]
+    },
+    {
+        "tag": "creadores",
+        "patterns": ["quienes te crearon", "quien te creo", "por quien estas creado"],
+        "responses": ["Mis creadores son: Pedro Novelo Rodriguez, Luis Moo Tuz, Angel Rivero y Emiliano Medina"]
+    },
+    {
+        "tag": "tablaPeriodica",
+        "patterns": ["tabla periodica", "que es la tabla periodica", "hablame de la tabla periodica", "definicion de tabla periodica"],
+        "responses": ["La tabla periódica es una disposición ordenada de los elementos químicos en filas (periodos) y columnas (grupos) según sus propiedades y características químicas y físicas. Los elementos están organizados principalmente por su número atómico."]
+    },
+    {
+        "tag": "reacOxidoReduc",
+        "patterns": ["oxido reduccion", "que es un oxido reduccion", "que es una reaccion redox", "hablame sobre las reacciones redox", "hablame sobre redox"],
+        "responses": ["Una reacción de óxido-reducción, o redox, es una reacción química en la que ocurre una transferencia de electrones entre las sustancias. En una reacción redox, un reactivo se oxida (pierde electrones) y otro se reduce (gana electrones)."]
+    },
+    {
+        "tag": "pH",
+        "patterns": ["pH", "que es el pH", "ph", "hablame sobre el ph", "dame informacion sobre el ph"],
+        "responses": ["El pH es una medida de la acidez o alcalinidad de una solución. Va de 0 a 14, donde 7 es neutro (agua pura), valores menores a 7 indican una solución ácida y valores mayores a 7 indican una solución básica o alcalina."]
+    },
+    {
+        "tag": "gasesIdeales",
+        "patterns": ["que es la ley de los gases ideales", "hablame sobre los gases ideales", "dame informacion de los gases ideales"],
+        "responses": ["La ley de los gases ideales describe el comportamiento de un gas ideal en términos de su presión, volumen, temperatura y número de moles. La ecuación es PV = nRT, donde P es la presión, V es el volumen, n es el número de moles, R es la constante de los gases ideales y T es la temperatura en kelvin."]
+    },
+    {
+        "tag": "enlaceCovalente",
+        "patterns": ["que es un enlace covalente", "enlace covalente", "hablame del enlace covalente", "enlace cobalente"],
+        "responses": ["Un enlace covalente es un tipo de enlace químico en el cual dos átomos comparten uno o más pares de electrones para alcanzar una configuración electrónica más estable."]
+    },
+    {
+        "tag": "electronegatividad",
+        "patterns": ["electronegatividad", "que es la electronegatividad", "hablame sobre la electronegatividad", "electrogenatividad"],
+        "responses": ["La electronegatividad es la capacidad de un átomo para atraer electrones en un enlace químico. Los átomos más electronegativos tienden a atraer electrones hacia ellos con mayor fuerza."]
+    },
+    {
+        "tag": "isotopos",
+        "patterns": ["isotopos", "hablame sobre los isotopos", "que son los isotopos", "dame informacion de los isotopos", "isotopos"],
+        "responses": ["Los isótopos son átomos del mismo elemento químico que tienen el mismo número de protones pero diferente número de neutrones, lo que les da una masa atómica distinta."]
+    },
+    {
+        "tag": "cation",
+        "patterns": ["cation", "que es un cation", "hablame de los cationes", "cationes"],
+        "responses": ["Un catión es un ion con carga positiva, que se forma cuando un átomo o molécula pierde uno o más electrones."]
+    },
+    {
+        "tag": "electrolisis",
+        "patterns": ["que es electrolisis", "proceso de electrolisis", "hablame sobre la electrolisis"],
+        "responses": ["La electrólisis es un proceso que utiliza electricidad para descomponer una sustancia en sus elementos constituyentes o compuestos. Se aplica, por ejemplo, en la descomposición del agua en oxígeno e hidrógeno."]
+    },
+    {
+        "tag": "disolucionSaturada",
+        "patterns": ["disolucion saturada", "que es una disolucion saturada", "dame informacion sobre la disolucion saturada"],
+        "responses": ["Una disolución saturada es aquella en la que no se puede disolver más soluto a una temperatura dada, ya que ha alcanzado su límite de solubilidad."]
+    },
+    {
+        "tag": "enlaceIonico",
+        "patterns": ["enlace ionico", "que es un enlace ionico", "dime informacion del enlace ionico", "hablame sobre el enlace ionico"],
+        "responses": ["Un enlace iónico es una unión química entre dos átomos de diferentes electronegatividades, en la que uno de los átomos cede electrones (formando un catión) y el otro los recibe (formando un anión), creando una atracción electrostática."]
+    },
+    {
+        "tag": "reactivoLimitante",
+        "patterns": ["reactivo limitante", "que es un reactivo limitante", "dime sobre un reactivo limitante"],
+        "responses": ["Un reactivo limitante es el reactivo que se consume completamente en una reacción química, limitando la cantidad de productos que se pueden formar."]
+    },
+    {
+        "tag": "teoriaAcidoBase",
+        "patterns": ["teoria de acido base", "bronsted lowry", "que dice la teoria de Bronsted Lowry"],
+        "responses": ["La teoría ácido-base de Brønsted-Lowry define un ácido como una sustancia que dona protones (H+) y una base como una sustancia que acepta protones. Esta teoría amplía la definición de ácidos y bases más allá de las soluciones acuosas."]
+    },
+    {
+        "tag": "basePH",
+        "patterns": ["que es una base", "sustancia base", "que se refiere con sustancia base", "dime que es una base"],
+        "responses": ["Una base es una sustancia que acepta protones (iones H+) o dona pares de electrones cuando se disuelve en agua. Las bases tienen un pH mayor a 7."]
+    },
+    {
+        "tag": "volDeCombinacion",
+        "patterns": ["volumenes de combinacion", "que son los volumenes de combinacion", "dime sobre los volumenes de combinacion"],
+        "responses": ["La ley de los volúmenes de combinación establece que, en condiciones de temperatura y presión constantes, los volúmenes de los gases que reaccionan entre sí y los volúmenes de los productos gaseosos están en una relación de números enteros pequeños."]
+    },
+    {
+        "tag": "hidrogeno",
+        "patterns": [ "hidrógeno", "hidrogeno", "H", "elemento H", "qué es el hidrógeno?", "que es el hidrogeno?", "cómo es el hidrógeno?", "como es el hidrogeno?", "háblame sobre el hidrógeno", "hablame sobre el hidrogeno", "háblame del elemento con número atómico 1", "hablame del elemento con numero atomico 1", "1", "el hidrógeno", "el hidrogeno", "agua y el hidrógeno", "agua y el hidrogeno" ],
+        "responses": [
+            "El hidrógeno (H) es un elemento no metal con símbolo H y número atómico 1. Está ubicado en el grupo 1 y período 1 de la tabla periódica. Tiene una masa atómica de 1.008 u y una configuración electrónica de 1s1. Su densidad es de 0.08988 g/L y se encuentra en estado gaseoso a temperatura ambiente. Su electronegatividad es de 2.20. Se encuentra en el agua y en compuestos orgánicos. Se usa como combustible para cohetes y en la producción de amoníaco. Tiene un punto de fusión de -259.16 °C y un punto de ebullición de -252.87 °C. Fue descubierto por Henry Cavendish en 1766."
+        ]
+    },
+    {
+        "tag": "helio",
+        "patterns": [ "helio", "He", "elemento He", "qué es el helio?", "que es el helio?", "cómo es el helio?", "como es el helio?", "háblame sobre el helio", "hablame sobre el helio", "háblame del elemento con número atómico 2", "hablame del elemento con numero atomico 2", "2", "el helio", "atmósfera y helio", "atmosfera y helio" ],
+        "responses": [
+            "El helio (He) es un gas noble con símbolo He y número atómico 2. Está ubicado en el grupo 18 y período 1 de la tabla periódica. Tiene una masa atómica de 4.0026 u y una configuración electrónica de 1s2. Su densidad es de 0.1786 g/L y se encuentra en estado gaseoso a temperatura ambiente. No tiene electronegatividad. Se encuentra en la atmósfera y en estrellas. Se usa como refrigerante y en globos. Tiene un punto de fusión de -272.20 °C y un punto de ebullición de -268.93 °C. Fue descubierto por Pierre Janssen en 1868."
+        ]
+    },
+    {
+        "tag": "litio",
+        "patterns": [ "litio", "Li", "elemento Li", "qué es el litio?", "que es el litio?", "cómo es el litio?", "como es el litio?", "háblame sobre el litio", "hablame sobre el litio", "háblame del elemento con número atómico 3", "hablame del elemento con numero atomico 3", "3", "el litio", "baterías de litio", "baterias de litio" ],
+        "responses": [
+            "El litio (Li) es un metal alcalino con símbolo Li y número atómico 3. Está ubicado en el grupo 1 y período 2 de la tabla periódica. Tiene una masa atómica de 6.94 u y una configuración electrónica de 1s2 2s1. Su densidad es de 0.534 g/cm3 y se encuentra en estado sólido a temperatura ambiente. Su electronegatividad es de 0.98. Se encuentra en minerales como la espodumena. Se usa en baterías recargables y en medicamentos para trastornos bipolares. Tiene un punto de fusión de 180.54 °C y un punto de ebullición de 1590 °C. Fue descubierto por Johann August Arfvedson en 1817."
+        ]
+    },
+    {
+        "tag": "berilio",
+        "patterns": [ "berilio", "Be", "elemento Be", "qué es el berilio?", "que es el berilio?", "cómo es el berilio?", "como es el berilio?", "háblame sobre el berilio", "hablame sobre el berilio", "háblame del elemento con número atómico 4", "hablame del elemento con numero atomico 4", "4", "el berilio", "aleaciones de berilio", "aleaciones de berilio" ],
+        "responses": [
+            "El berilio (Be) es un metal alcalinotérreo con símbolo Be y número atómico 4. Está ubicado en el grupo 2 y período 2 de la tabla periódica. Tiene una masa atómica de 9.0122 u y una configuración electrónica de 1s2 2s2. Su densidad es de 1.848 g/cm3 y se encuentra en estado sólido a temperatura ambiente. Su electronegatividad es de 1.57. Se encuentra en minerales como la berilo y la esmeralda. Se usa en aleaciones para aviones y herramientas. Tiene un punto de fusión de 1287 °C y un punto de ebullición de 2471 °C. Fue descubierto por Louis-Nicolas Vauquelin en 1798."
+        ]
+    },
+    {
+        "tag": "boro",
+        "patterns": [ "boro", "B", "elemento B", "qué es el boro?", "que es el boro?", "cómo es el boro?", "como es el boro?", "háblame sobre el boro", "hablame sobre el boro", "háblame del elemento con número atómico 5", "hablame del elemento con numero atomico 5", "5", "el boro", "vidrios resistentes al boro", "vidrios resistentes al boro" ],
+        "responses": [
+            "El boro (B) es un metaloide con símbolo B y número atómico 5. Está ubicado en el grupo 13 y período 2 de la tabla periódica. Tiene una masa atómica de 10.81 u y una configuración electrónica de 1s2 2s2 2p1. Su densidad es de 2.34 g/cm3 y se encuentra en estado sólido a temperatura ambiente. Su electronegatividad es de 2.04. Se encuentra en minerales como el bórax y la kernita. Se usa en vidrios resistentes al calor y detergentes. Tiene un punto de fusión de 2076 °C y un punto de ebullición de 4000 °C. Fue descubierto por Joseph Louis Gay-Lussac y Louis-Jacques Thénard en 1808."
+        ]
+    },
+    {
+        "tag": "carbono",
+        "patterns": [ "carbono", "C", "elemento C", "qué es el carbono?", "que es el carbono?", "cómo es el carbono?", "como es el carbono?", "háblame sobre el carbono", "hablame sobre el carbono", "háblame del elemento con número atómico 6", "hablame del elemento con numero atomico 6", "6", "el carbono", "diamantes y carbono", "diamantes y carbono" ],
+        "responses": [
+            "El carbono (C) es un no metal con símbolo C y número atómico 6. Está ubicado en el grupo 14 y período 2 de la tabla periódica. Tiene una masa atómica de 12.011 u y una configuración electrónica de 1s2 2s2 2p2. Su densidad es de 2.267 g/cm3 (grafito) / 3.513 g/cm3 (diamante) y se encuentra en estado sólido a temperatura ambiente. Su electronegatividad es de 2.55. Se encuentra en la atmósfera como CO2 y en todos los organismos vivos. Se usa como base de la química orgánica y en formas como diamantes y grafito. Tiene un punto de fusión de 3550 °C y un punto de ebullición de 4827 °C. Fue identificado como un elemento por Antoine Lavoisier."
+        ]
+    },
+    {
+        "tag": "nitrogeno",
+        "patterns": [ "nitrógeno", "nitrogeno", "N", "elemento N", "qué es el nitrógeno?", "que es el nitrogeno?", "cómo es el nitrógeno?", "como es el nitrogeno?", "háblame sobre el nitrógeno", "hablame sobre el nitrogeno", "háblame del elemento con número atómico 7", "hablame del elemento con numero atomico 7", "7", "el nitrógeno", "el nitrogeno", "fertilizantes y nitrógeno", "fertilizantes y nitrogeno"],
+        "responses": [
+            "El nitrógeno (N) es un no metal con símbolo N y número atómico 7. Está ubicado en el grupo 15 y período 2 de la tabla periódica. Tiene una masa atómica de 14.007 u y una configuración electrónica de 1s2 2s2 2p3. Su densidad es de 1.2506 g/L y se encuentra en estado gaseoso a temperatura ambiente. Su electronegatividad es de 3.04. Se encuentra en la atmósfera y en compuestos biológicos. Se usa en fertilizantes y como atmósfera inerte en soldadura. Tiene un punto de fusión de -210.00 °C y un punto de ebullición de -195.79 °C. Fue descubierto por Daniel Rutherford en 1772."
+        ]
+    },
+    {
+        "tag": "oxigeno",
+        "patterns": [ "oxígeno", "oxigeno", "O", "elemento O", "qué es el oxígeno?", "que es el oxigeno?", "cómo es el oxígeno?", "como es el oxigeno?", "háblame sobre el oxígeno", "hablame sobre el oxigeno", "háblame del elemento con número atómico 8", "hablame del elemento con numero atomico 8", "8", "el oxígeno", "el oxigeno", "respiración y oxígeno", "respiracion y oxigeno" ],
+        "responses": [
+            "El oxígeno (O) es un no metal con símbolo O y número atómico 8. Está ubicado en el grupo 16 y período 2 de la tabla periódica. Tiene una masa atómica de 15.999 u y una configuración electrónica de 1s2 2s2 2p4. Su densidad es de 0.001429 g/L y se encuentra en estado gaseoso a temperatura ambiente. Su electronegatividad es de 3.44. Se encuentra en la atmósfera, agua y compuestos biológicos. Se usa en la respiración celular y la producción de ozono. Tiene un punto de fusión de -218.79 °C y un punto de ebullición de -182.96 °C. Fue descubierto por Joseph Priestley y Carl Wilhelm Scheele en 1774."
+        ]
+    },
+    {
+        "tag": "fluor",
+        "patterns": [ "flúor", "fluor", "F", "elemento F", "qué es el flúor?", "que es el fluor?", "cómo es el flúor?", "como es el fluor?", "háblame sobre el flúor", "hablame sobre el fluor", "háblame del elemento con número atómico 9", "hablame del elemento con numero atomico 9", "9", "el flúor", "el fluor", "pasta dental y flúor", "pasta dental y fluor" ],
+        "responses": [
+            "El flúor (F) es un halógeno con símbolo F y número atómico 9. Está ubicado en el grupo 17 y período 2 de la tabla periódica. Tiene una masa atómica de 18.998 u y una configuración electrónica de 1s2 2s2 2p5. Su densidad es de 1.696 g/L y se encuentra en estado gaseoso a temperatura ambiente. Su electronegatividad es de 3.98. Se encuentra en minerales como la fluorita. Se usa en la producción de fluoruros y en pasta dental. Tiene un punto de fusión de -219.62 °C y un punto de ebullición de -188.11 °C. Fue descubierto por André-Marie Ampère en 1886."
+        ]
+    },
+    {
+        "tag": "neon",
+        "patterns": [ "neón", "neon", "Ne", "elemento Ne", "qué es el neón?", "que es el neon?", "cómo es el neón?", "como es el neon?", "háblame sobre el neón", "hablame sobre el neon", "háblame del elemento con número atómico 10", "hablame del elemento con numero atomico 10", "10", "el neón", "el neon", "luces de neón", "luces de neon" ],
+        "responses": [
+            "El neón (Ne) es un gas noble con símbolo Ne y número atómico 10. Está ubicado en el grupo 18 y período 2 de la tabla periódica. Tiene una masa atómica de 20.180 u y una configuración electrónica de 1s2 2s2 2p6. Su densidad es de 0.9002 g/L y se encuentra en estado gaseoso a temperatura ambiente. No tiene electronegatividad. Se encuentra en la atmósfera terrestre. Se usa en señales luminosas y criogenia. Tiene un punto de fusión de -248.59 °C y un punto de ebullición de -246.08 °C. Fue descubierto por William Ramsay y Morris Travers en 1898."
+        ]
+    },
+    {
+        "tag": "sodio",
+        "patterns": [ "sodio", "Na", "elemento Na", "qué es el sodio?", "que es el sodio?", "cómo es el sodio?", "como es el sodio?", "háblame sobre el sodio", "hablame sobre el sodio", "háblame del elemento con número atómico 11", "hablame del elemento con numero atomico 11", "11", "el sodio", "sal común y sodio", "sal comun y sodio" ],
+        "responses": [
+            "El sodio (Na) es un metal alcalino con símbolo Na y número atómico 11. Está ubicado en el grupo 1 y período 3 de la tabla periódica. Tiene una masa atómica de 22.990 u y una configuración electrónica de 1s2 2s2 2p6 3s1. Su densidad es de 0.971 g/cm3 y se encuentra en estado sólido a temperatura ambiente. Su electronegatividad es de 0.93. Se encuentra en minerales como la halita. Se usa en la sal común (NaCl) y en la fabricación de vidrio. Tiene un punto de fusión de 97.72 °C y un punto de ebullición de 883 °C. Fue descubierto por Humphry Davy en 1807."
+        ]
+    },
+    {
+        "tag": "magnesio",
+        "patterns": [ "magnesio", "Mg", "elemento Mg", "qué es el magnesio?", "que es el magnesio?", "cómo es el magnesio?", "como es el magnesio?", "háblame sobre el magnesio", "hablame sobre el magnesio", "háblame del elemento con número atómico 12", "hablame del elemento con numero atomico 12", "12", "el magnesio", "minerales con magnesio", "minerales con magnesio" ],
+        "responses": ["El magnesio (Mg) es un metal alcalinotérreo con número atómico 12, ubicado en el Grupo 2 y Período 3. Tiene una masa atómica de 24.305 u, configuración electrónica 1s2 2s2 2p6 3s2, una densidad de 1.738 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.31. Se encuentra en minerales como la dolomita, se usa en aleaciones ligeras y en la producción de fuego. Tiene un punto de fusión de 650 °C y un punto de ebullición de 1090 °C, y fue descubierto por Joseph Black en 1755."]
+    },
+    {
+        "tag": "aluminio",
+        "patterns": [ "aluminio", "Al", "elemento Al", "qué es el aluminio?", "que es el aluminio?", "cómo es el aluminio?", "como es el aluminio?", "háblame sobre el aluminio", "hablame sobre el aluminio", "háblame del elemento con número atómico 13", "hablame del elemento con numero atomico 13", "13", "el aluminio", "aleaciones con aluminio", "aleaciones con aluminio" ],
+        "responses": ["El aluminio (Al) es un metal con número atómico 13, ubicado en el Grupo 13 y Período 3. Tiene una masa atómica de 26.982 u, configuración electrónica 1s2 2s2 2p6 3s2 3p1, una densidad de 2.70 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.61. Se encuentra en minerales como la bauxita, se usa en la fabricación de aleaciones y envases. Tiene un punto de fusión de 660.32 °C y un punto de ebullición de 2470 °C, y fue descubierto por Hans Christian Ørsted en 1825."]
+    },
+    {
+        "tag": "silicio",
+        "patterns": [ "silicio", "Si", "elemento Si", "qué es el silicio?", "que es el silicio?", "cómo es el silicio?", "como es el silicio?", "háblame sobre el silicio", "hablame sobre el silicio", "háblame del elemento con número atómico 14", "hablame del elemento con numero atomico 14", "14", "el silicio", "chips y silicio", "chips y silicio" ],
+        "responses": ["El silicio (Si) es un metaloide con número atómico 14, ubicado en el Grupo 14 y Período 3. Tiene una masa atómica de 28.085 u, configuración electrónica 1s2 2s2 2p6 3s2 3p2, una densidad de 2.3296 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.90. Se encuentra en minerales como el cuarzo y se usa en la fabricación de semiconductores. Tiene un punto de fusión de 1414 °C y un punto de ebullición de 2900 °C, y fue identificado como elemento por Jöns Jakob Berzelius."]
+    },
+    {
+        "tag": "fosforo",
+        "patterns": [ "fósforo", "fosforo", "P", "elemento P", "qué es el fósforo?", "que es el fosforo?", "cómo es el fósforo?", "como es el fosforo?", "háblame sobre el fósforo", "hablame sobre el fosforo", "háblame del elemento con número atómico 15", "hablame del elemento con numero atomico 15", "15", "el fósforo", "el fosforo", "fertilizantes y fósforo", "fertilizantes y fosforo" ],
+        "responses": ["El fósforo (P) es un no metal con número atómico 15, ubicado en el Grupo 15 y Período 3. Tiene una masa atómica de 30.974 u, configuración electrónica 1s2 2s2 2p6 3s2 3p3, una densidad de 1.823 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.19. Se encuentra en minerales como la apatita, se usa en fertilizantes y detergentes. Tiene un punto de fusión de 44.2 °C y un punto de ebullición de 280 °C, y fue descubierto por Hennig Brand en 1669."]
+    },
+    {
+        "tag": "azufre",
+        "patterns": [ "azufre", "S", "elemento S", "qué es el azufre?", "que es el azufre?", "cómo es el azufre?", "como es el azufre?", "háblame sobre el azufre", "hablame sobre el azufre", "háblame del elemento con número atómico 16", "hablame del elemento con numero atomico 16", "16", "el azufre", "volcanes y azufre", "volcanes y azufre" ],
+        "responses": ["El azufre (S) es un no metal con número atómico 16, ubicado en el Grupo 16 y Período 3. Tiene una masa atómica de 32.06 u, configuración electrónica 1s2 2s2 2p6 3s2 3p4, una densidad de 2.07 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.58. Se encuentra en compuestos como los sulfuros, se usa en la fabricación de ácido sulfúrico y en la vulcanización del caucho. Tiene un punto de fusión de 115.21 °C y un punto de ebullición de 444.6 °C, y es conocido desde la antigüedad."]
+    },
+    {
+        "tag": "cloro",
+        "patterns": [ "cloro", "Cl", "elemento Cl", "qué es el cloro?", "que es el cloro?", "cómo es el cloro?", "como es el cloro?", "háblame sobre el cloro", "hablame sobre el cloro", "háblame del elemento con número atómico 17", "hablame del elemento con numero atomico 17", "17", "el cloro", "desinfectantes y cloro", "desinfectantes y cloro" ],
+        "responses": ["El cloro (Cl) es un halógeno con número atómico 17, ubicado en el Grupo 17 y Período 3. Tiene una masa atómica de 35.45 u, configuración electrónica 1s2 2s2 2p6 3s2 3p5, una densidad de 3.214 g/L, estado gaseoso a temperatura ambiente, electronegatividad de 3.16. Se encuentra en compuestos como el NaCl (sal común), se usa como desinfectante y en la fabricación de PVC. Tiene un punto de fusión de -101.5 °C y un punto de ebullición de -34.04 °C, y fue descubierto por Carl Wilhelm Scheele en 1774."]
+    },
+    {
+        "tag": "argon",
+        "patterns": [ "argón", "argon", "Ar", "elemento Ar", "qué es el argón?", "que es el argon?", "cómo es el argón?", "como es el argon?", "háblame sobre el argón", "hablame sobre el argon", "háblame del elemento con número atómico 18", "hablame del elemento con numero atomico 18", "18", "el argón", "el argon", "luces y argón", "luces y argon" ],
+        "responses": ["El argón (Ar) es un gas noble con número atómico 18, ubicado en el Grupo 18 y Período 3. Tiene una masa atómica de 39.948 u, configuración electrónica 1s2 2s2 2p6 3s2 3p6, una densidad de 1.784 g/L, estado gaseoso a temperatura ambiente, sin electronegatividad. Se encuentra en la atmósfera, se usa en lámparas de gas y como atmósfera inerte para soldadura. Tiene un punto de fusión de -189.34 °C y un punto de ebullición de -185.85 °C, y fue descubierto por Lord Rayleigh y William Ramsay en 1894."]
+    },
+    {
+        "tag": "potasio",
+        "patterns": [ "potasio", "K", "elemento K", "qué es el potasio?", "que es el potasio?", "cómo es el potasio?", "como es el potasio?", "háblame sobre el potasio", "hablame sobre el potasio", "háblame del elemento con número atómico 19", "hablame del elemento con numero atomico 19", "19", "el potasio", "fertilizantes y potasio", "fertilizantes y potasio" ],
+        "responses": ["El potasio (K) es un metal alcalino con número atómico 19, ubicado en el Grupo 1 y Período 4. Tiene una masa atómica de 39.098 u, configuración electrónica 1s2 2s2 2p6 3s2 3p6 4s1, una densidad de 0.862 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 0.82. Se encuentra en minerales como la silvita, se usa en fertilizantes y en la fabricación de vidrios. Tiene un punto de fusión de 63.38 °C y un punto de ebullición de 759 °C, y fue descubierto por Humphry Davy en 1807."]
+    },
+    {
+        "tag": "calcio",
+        "patterns": [ "calcio", "Ca", "elemento Ca", "qué es el calcio?", "que es el calcio?", "cómo es el calcio?", "como es el calcio?", "háblame sobre el calcio", "hablame sobre el calcio", "háblame del elemento con número atómico 20", "hablame del elemento con numero atomico 20", "20", "el calcio", "huesos y calcio", "huesos y calcio" ],
+        "responses": ["El calcio (Ca) es un metal alcalinotérreo con número atómico 20, ubicado en el Grupo 2 y Período 4. Tiene una masa atómica de 40.078 u, configuración electrónica 1s2 2s2 2p6 3s2 3p6 4s2, una densidad de 1.54 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.00. Se encuentra en minerales como la calcita y el yeso, se usa en la construcción (cemento y cal) y en suplementos de calcio. Tiene un punto de fusión de 842 °C y un punto de ebullición de 1484 °C, y fue descubierto por Humphry Davy en 1808."]
+    },
+    {
+        "tag": "escandio",
+        "patterns": [ "escandio", "Sc", "elemento Sc", "qué es el escandio?", "que es el escandio?", "cómo es el escandio?", "como es el escandio?", "háblame sobre el escandio", "hablame sobre el escandio", "háblame del elemento con número atómico 21", "hablame del elemento con numero atomico 21", "21", "el escandio", "aleaciones y escandio", "aleaciones y escandio" ],
+        "responses": ["El escandio (Sc) es un metal de transición con número atómico 21, ubicado en el Grupo 3 y Período 4. Tiene una masa atómica de 44.956 u, configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d1 4s2, una densidad de 2.985 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.36. Se encuentra en minerales como la escandinita, se usa en aleaciones de aluminio y linternas de alta intensidad. Tiene un punto de fusión de 1539 °C y un punto de ebullición de 2836 °C, y fue descubierto por Lars Fredrik Nilson en 1879."]
+},
+{
+    "tag": "titanio",
+    "patterns": [ "titanio", "Ti", "elemento Ti", "qué es el titanio?", "que es el titanio?", "cómo es el titanio?", "como es el titanio?", "háblame sobre el titanio", "hablame sobre el titanio", "háblame del elemento con número atómico 22", "hablame del elemento con numero atomico 22", "22", "el titanio", "resistencia y titanio", "resistencia y titanio" ],
+    "responses": ["El titanio (Ti) es un metal de transición con número atómico 22, ubicado en el Grupo 4 y Período 4. Tiene una masa atómica de 47.867 u, configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d2 4s2, una densidad de 4.506 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.54. Se encuentra en minerales como el rutilo, se usa en aleaciones ligeras y en la industria aeroespacial. Tiene un punto de fusión de 1668 °C y un punto de ebullición de 3287 °C, y fue descubierto por William Gregor en 1791."]
+},
+{
+    "tag": "vanadio",
+    "patterns": [ "vanadio", "V", "elemento V", "qué es el vanadio?", "que es el vanadio?", "cómo es el vanadio?", "como es el vanadio?", "háblame sobre el vanadio", "hablame sobre el vanadio", "háblame del elemento con número atómico 23", "hablame del elemento con numero atomico 23", "23", "el vanadio", "aleaciones y vanadio", "aleaciones y vanadio" ],
+    "responses": ["El vanadio (V) es un metal de transición con número atómico 23, ubicado en el Grupo 5 y Período 4. Tiene una masa atómica de 50.9415 u, configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d3 4s2, una densidad de 6.11 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.63. Se encuentra en minerales como la vanadinita, se usa en aleaciones de acero y en la fabricación de baterías. Tiene un punto de fusión de 1910 °C y un punto de ebullición de 3380 °C, y fue descubierto por Andrés Manuel del Río en 1801."]
+},
+{
+    "tag": "cromo",
+    "patterns": [ "cromo", "Cr", "elemento Cr", "qué es el cromo?", "que es el cromo?", "cómo es el cromo?", "como es el cromo?", "háblame sobre el cromo", "hablame sobre el cromo", "háblame del elemento con número atómico 24", "hablame del elemento con numero atomico 24", "24", "el cromo", "aceros y cromo", "aceros y cromo" ],
+    "responses": ["El cromo (Cr) es un metal de transición con número atómico 24, masa atómica de 52.00 u, densidad de 7.19 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d5 4s1. Se encuentra en el grupo 6 y período 4, con un punto de fusión de 1907 °C y punto de ebullición de 2671 °C. Fue descubierto por Louis-Nicolas Vauquelin en 1797 y se encuentra en minerales como la cromita, usado en aleaciones y recubrimientos anticorrosivos."]
+},
+{
+    "tag": "manganeso",
+    "patterns":[ "manganeso", "Mn", "elemento Mn", "qué es el manganeso?", "que es el manganeso?", "cómo es el manganeso?", "como es el manganeso?", "háblame sobre el manganeso", "hablame sobre el manganeso", "háblame del elemento con número atómico 25", "hablame del elemento con numero atomico 25", "25", "el manganeso", "aleaciones y manganeso", "aleaciones y manganeso" ],
+    "responses": ["El manganeso (Mn) es un metal de transición con número atómico 25, masa atómica de 54.938044 u, densidad de 7.43 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d5 4s2. Se encuentra en el grupo 7 y período 4, con un punto de fusión de 1244 °C y punto de ebullición de 2095 °C. Conocido desde la antigüedad, presente en minerales como la pirolusita, se usa en la producción de acero y baterías."]
+},
+{
+    "tag": "hierro",
+    "patterns":[ "hierro", "Fe", "elemento Fe", "qué es el hierro?", "que es el hierro?", "cómo es el hierro?", "como es el hierro?", "háblame sobre el hierro", "hablame sobre el hierro", "háblame del elemento con número atómico 26", "hablame del elemento con numero atomico 26", "26", "el hierro", "aceros y hierro", "aceros y hierro" ],
+    "responses": ["El hierro (Fe) es un metal de transición con número atómico 26, masa atómica de 55.845 u, densidad de 7.874 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d6 4s2. Se encuentra en el grupo 8 y período 4, con un punto de fusión de 1538 °C y punto de ebullición de 2862 °C. Conocido desde la antigüedad, hallado en minerales como la hematita, se usa en la construcción y producción de maquinaria."]
+},
+{
+    "tag": "cobalto",
+    "patterns": [ "cobalto", "Co", "elemento Co", "qué es el cobalto?", "que es el cobalto?", "cómo es el cobalto?", "como es el cobalto?", "háblame sobre el cobalto", "hablame sobre el cobalto", "háblame del elemento con número atómico 27", "hablame del elemento con numero atomico 27", "27", "el cobalto", "baterías y cobalto", "baterias y cobalto" ],
+    "responses": ["El cobalto (Co) es un metal de transición con número atómico 27, masa atómica de 58.933 u, densidad de 8.90 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d7 4s2. Se encuentra en el grupo 9 y período 4, con un punto de fusión de 1495 °C y punto de ebullición de 2927 °C. Conocido desde la antigüedad, presente en minerales como la cobaltita, se utiliza en baterías recargables y aleaciones."]
+},
+{
+    "tag": "niquel",
+    "patterns": [ "níquel", "niquel", "Ni", "elemento Ni", "qué es el níquel?", "que es el niquel?", "cómo es el níquel?", "como es el niquel?", "háblame sobre el níquel", "hablame sobre el niquel", "háblame del elemento con número atómico 28", "hablame del elemento con numero atomico 28", "28", "el níquel", "el niquel", "monedas y níquel", "monedas y niquel" ],
+    "responses": ["El níquel (Ni) es un metal de transición con número atómico 28, masa atómica de 58.6934 u, densidad de 8.908 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d8 4s2. Se encuentra en el grupo 10 y período 4, con un punto de fusión de 1455 °C y punto de ebullición de 2913 °C. Conocido desde la antigüedad, encontrado en minerales como la pentlandita, es usado en la fabricación de monedas y aleaciones."]
+},
+{
+    "tag": "cobre",
+    "patterns": [ "cobre", "Cu", "elemento Cu", "qué es el cobre?", "que es el cobre?", "cómo es el cobre?", "como es el cobre?", "háblame sobre el cobre", "hablame sobre el cobre", "háblame del elemento con número atómico 29", "hablame del elemento con numero atomico 29", "29", "el cobre", "electricidad y cobre", "electricidad y cobre" ],
+    "responses": ["El cobre (Cu) es un metal de transición con número atómico 29, masa atómica de 63.546 u, densidad de 8.96 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d10 4s1. Se encuentra en el grupo 11 y período 4, con un punto de fusión de 1084.62 °C y punto de ebullición de 2562 °C. Conocido desde la antigüedad, presente en minerales como la calcopirita, se usa en cableado eléctrico y monedas."]
+},
+{
+    "tag": "zinc",
+    "patterns": [ "zinc", "Zn", "elemento Zn", "qué es el zinc?", "que es el zinc?", "cómo es el zinc?", "como es el zinc?", "háblame sobre el zinc", "hablame sobre el zinc", "háblame del elemento con número atómico 30", "hablame del elemento con numero atomico 30", "30", "el zinc", "galvanización y zinc", "galvanizacion y zinc" ],
+    "responses": ["El zinc (Zn) es un metal de transición con número atómico 30, masa atómica de 65.38 u, densidad de 7.14 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d10 4s2. Se encuentra en el grupo 12 y período 4, con un punto de fusión de 419.58 °C y punto de ebullición de 907 °C. Conocido desde la antigüedad, hallado en minerales como la esfalerita, se usa en recubrimientos metálicos y aleaciones."]
+},
+{
+    "tag": "galio",
+    "patterns": [ "galio", "Ga", "elemento Ga", "qué es el galio?", "que es el galio?", "cómo es el galio?", "como es el galio?", "háblame sobre el galio", "hablame sobre el galio", "háblame del elemento con número atómico 31", "hablame del elemento con numero atomico 31", "31", "el galio", "semiconductores y galio", "semiconductores y galio" ],
+    "responses": ["El galio (Ga) es un metal con número atómico 31, masa atómica de 69.723 u, densidad de 5.91 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 4s2 4p1. Se encuentra en el grupo 13 y período 4, con un punto de fusión de 29.76 °C y punto de ebullición de 2204 °C. Descubierto por Paul-Émile Lecoq de Boisbaudran en 1875, presente en minerales como la galena, se utiliza en semiconductores y LED."]
+},
+{
+    "tag": "germanio",
+    "patterns": [ "germanio", "Ge", "elemento Ge", "qué es el germanio?", "que es el germanio?", "cómo es el germanio?", "como es el germanio?", "háblame sobre el germanio", "hablame sobre el germanio", "háblame del elemento con número atómico 32", "hablame del elemento con numero atomico 32", "32", "el germanio", "semiconductores y germanio", "semiconductores y germanio" ],
+    "responses": ["El germanio (Ge) es un metaloide con número atómico 32, masa atómica de 72.63 u, densidad de 5.323 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p2. Se encuentra en el grupo 14 y período 4, con un punto de fusión de 938.25 °C y punto de ebullición de 2833 °C. Descubierto por Clemens Winkler en 1886, hallado en minerales como la argyrodíta, se usa en semiconductores y fibra óptica."]
+},
+{
+    "tag": "arsenico",
+    "patterns": [ "arsénico", "arsenico", "As", "elemento As", "qué es el arsénico?", "que es el arsenico?", "cómo es el arsénico?", "como es el arsenico?", "háblame sobre el arsénico", "hablame sobre el arsenico", "háblame del elemento con número atómico 33", "hablame del elemento con numero atomico 33", "33", "el arsénico", "el arsenico", "venenos y arsénico", "venenos y arsenico" ],
+    "responses": ["El arsénico (As) es un metaloide con número atómico 33, masa atómica de 74.922 u, densidad de 5.776 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p3. Se encuentra en el grupo 15 y período 4, con un punto de fusión de 817 °C y punto de ebullición de 613 °C. Conocido desde la antigüedad, presente en minerales como la arsenopirita, se usa en semiconductores y pesticidas."]
+},
+{
+    "tag": "selenio",
+    "patterns": [ "selenio", "Se", "elemento Se", "qué es el selenio?", "que es el selenio?", "cómo es el selenio?", "como es el selenio?", "háblame sobre el selenio", "hablame sobre el selenio", "háblame del elemento con número atómico 34", "hablame del elemento con numero atomico 34", "34", "el selenio", "suplementos y selenio", "suplementos y selenio" ],
+    "responses": ["El selenio (Se) es un no metal con número atómico 34, masa atómica de 78.971 u, densidad de 4.79 g/cm3 y configuración electrónica 1s2 2s2 2p6 3s2 3p6 3d10 4s2 4p4. Se encuentra en el grupo 16 y período 4, con un punto de fusión de 221 °C y punto de ebullición de 685 °C. Descubierto por Jöns Jacob Berzelius en 1817, presente en minerales como la selenita, se utiliza en paneles solares y productos antioxidantes."]
+},
+{
+    "tag": "bromo",
+    "patterns": [ "bromo", "Br", "elemento Br", "qué es el bromo?", "que es el bromo?", "cómo es el bromo?", "como es el bromo?", "háblame sobre el bromo", "hablame sobre el bromo", "háblame del elemento con número atómico 35", "hablame del elemento con numero atomico 35", "35", "el bromo", "desinfectante y bromo", "desinfectante y bromo" ],
+    "responses": ["El bromo (Br) es un halógeno con número atómico 35, masa atómica de 79.904 u, densidad de 3.12 g/cm3 y configuración electrónica [Ar] 3d10 4s2 4p5. Se encuentra en el grupo 17 y período 4, con un punto de fusión de -7.2 °C y punto de ebullición de 58.8 °C. Fue descubierto por Antoine Jérôme Balard en 1826 y se encuentra en compuestos como la sal de bromo, usado en desinfectantes y la industria farmacéutica."]
+},
+{
+    "tag": "kripton",
+    "patterns": [ "kriptón", "kripton", "Kr", "elemento Kr", "qué es el kriptón?", "que es el kripton?", "cómo es el kriptón?", "como es el kripton?", "áblame sobre el kriptón", "ablame sobre el kripton", "áblame del elemento con número atómico 36", "ablame del elemento con numero atomico 36", "36", "el kriptón", "luces y kriptón", "luces y kripton" ],
+    "responses": ["El kriptón (Kr) es un gas noble con número atómico 36, masa atómica de 83.798 u, densidad de 3.749 g/L y configuración electrónica [Ar] 3d10 4s2 4p6. Se encuentra en el grupo 18 y período 4, con un punto de fusión de -157.36 °C y punto de ebullición de -153.22 °C. Fue descubierto por William Ramsay y Morris Travers en 1898 y se utiliza en lámparas fluorescentes."]
+},
+{
+    "tag": "rubidio",
+    "patterns": [ "rubidio", "Rb", "elemento Rb", "qué es el rubidio?", "que es el rubidio?", "cómo es el rubidio?", "como es el rubidio?", "háblame sobre el rubidio", "hablame sobre el rubidio", "háblame del elemento con número atómico 37", "hablame del elemento con numero atomico 37", "37", "el rubidio", "reacciones y rubidio", "reacciones y rubidio" ],
+    "responses": ["El rubidio (Rb) es un metal alcalino con número atómico 37, masa atómica de 85.4678 u, densidad de 1.532 g/cm3 y configuración electrónica [Kr] 5s1. Se encuentra en el grupo 1 y período 5, con un punto de fusión de 39.31 °C y punto de ebullición de 688 °C. Fue descubierto por Robert Bunsen y Gustav Kirchhoff en 1861 y se usa en células fotovoltaicas e investigaciones científicas."]
+},
+{
+    "tag": "estroncio",
+    "patterns": [ "estroncio", "Sr", "elemento Sr", "qué es el estroncio?", "que es el estroncio?", "cómo es el estroncio?", "como es el estroncio?", "háblame sobre el estroncio", "hablame sobre el estroncio", "háblame del elemento con número atómico 38", "hablame del elemento con numero atomico 38", "38", "el estroncio", "pirotecnia y estroncio", "pirotecnia y estroncio" ],
+    "responses": ["El estroncio (Sr) es un metal alcalinotérreo con número atómico 38, masa atómica de 87.62 u, densidad de 2.64 g/cm3 y configuración electrónica [Kr] 5s2. Se encuentra en el grupo 2 y período 5, con un punto de fusión de 777 °C y punto de ebullición de 1382 °C. Fue descubierto por Adair Crawford en 1790 y se usa en fuegos artificiales e imanes."]
+},
+{
+    "tag": "itrio",
+    "patterns": [ "itrio", "Y", "elemento Y", "qué es el itrio?", "que es el itrio?", "cómo es el itrio?", "como es el itrio?", "háblame sobre el itrio", "hablame sobre el itrio", "háblame del elemento con número atómico 39", "hablame del elemento con numero atomico 39", "39", "el itrio", "materiales y itrio", "materiales y itrio" ],
+    "responses": ["El itrio (Y) es un metal de transición con número atómico 39, masa atómica de 88.905 u, densidad de 4.47 g/cm3 y configuración electrónica [Kr] 4d1 5s2. Se encuentra en el grupo 3 y período 5, con un punto de fusión de 1526 °C y punto de ebullición de 3337 °C. Fue descubierto por Johan Gadolin en 1794 y se utiliza en dispositivos electrónicos y láseres."]
+},
+{
+    "tag": "zirconio",
+    "patterns": [ "circonio", "zirconio", "Zr", "elemento Zr", "qué es el circonio?", "que es el circonio?", "qué es el zirconio?", "que es el zirconio?", "cómo es el circonio?", "como es el circonio?", "cómo es el zirconio?", "como es el zirconio?", "háblame sobre el circonio", "hablame sobre el circonio", "háblame sobre el zirconio", "hablame sobre el zirconio", "háblame del elemento con número atómico 40", "hablame del elemento con numero atomico 40", "40", "el circonio", "el zirconio", "cerámica y circonio", "ceramica y circonio", "cerámica y zirconio", "ceramica y zirconio" ],
+    "responses": ["El zirconio (Zr) es un metal de transición con número atómico 40, masa atómica de 91.224 u, densidad de 6.52 g/cm3 y configuración electrónica [Kr] 4d2 5s2. Se encuentra en el grupo 4 y período 5, con un punto de fusión de 1855 °C y punto de ebullición de 4377 °C. Fue descubierto por Martin Heinrich Klaproth en 1789 y se utiliza en aleaciones y la industria aeroespacial."]
+},
+{
+    "tag": "niobio",
+    "patterns": [ "niobio", "Nb", "elemento Nb", "qué es el niobio?", "que es el niobio?", "cómo es el niobio?", "como es el niobio?", "háblame sobre el niobio", "hablame sobre el niobio", "háblame del elemento con número atómico 41", "hablame del elemento con numero atomico 41", "41", "el niobio", "aleaciones y niobio", "aleaciones y niobio" ],
+    "responses": ["El niobio (Nb) es un metal de transición con número atómico 41, masa atómica de 92.906 u, densidad de 8.57 g/cm3 y configuración electrónica [Kr] 4d4 5s1. Se encuentra en el grupo 5 y período 5, con un punto de fusión de 2477 °C y punto de ebullición de 4744 °C. Fue descubierto por Charles Hatchett en 1801 y se utiliza en superconductores y aleaciones de acero."]
+},
+{
+    "tag": "molibdeno",
+    "patterns": [ "molibdeno", "Mo", "elemento Mo", "qué es el molibdeno?", "que es el molibdeno?", "cómo es el molibdeno?", "como es el molibdeno?", "háblame sobre el molibdeno", "hablame sobre el molibdeno", "háblame del elemento con número atómico 42", "hablame del elemento con numero atomico 42", "42", "el molibdeno", "aleaciones y molibdeno", "aleaciones y molibdeno" ],
+    "responses": ["El molibdeno (Mo) es un metal de transición con número atómico 42, masa atómica de 95.95 u, densidad de 10.28 g/cm3 y configuración electrónica [Kr] 4d5 5s1. Se encuentra en el grupo 6 y período 5, con un punto de fusión de 2623 °C y punto de ebullición de 4639 °C. Fue descubierto por Carl Wilhelm Scheele en 1778 y se usa en aleaciones y aceros resistentes."]
+},
+{
+    "tag": "tecnecio",
+    "patterns": [ "tecnecio", "Tc", "elemento Tc", "qué es el tecnecio?", "que es el tecnecio?", "cómo es el tecnecio?", "como es el tecnecio?", "háblame sobre el tecnecio", "hablame sobre el tecnecio", "háblame del elemento con número atómico 43", "hablame del elemento con numero atomico 43", "43", "el tecnecio", "radioterapia y tecnecio", "radioterapia y tecnecio" ],
+    "responses": ["El tecnecio (Tc) es un metal de transición con número atómico 43, masa atómica de 98 u, densidad de 11.5 g/cm3 y configuración electrónica [Kr] 4d5 5s2. Es radioactivo y producido sintéticamente, se usa en medicina nuclear como radiotrazador, con un punto de fusión de 2200 °C y punto de ebullición de 4265 °C. Fue descubierto por Carlo Perrier y Emilio Segrè en 1937."]
+},
+{
+    "tag": "rutenio",
+    "patterns": [ "rutenio", "Ru", "elemento Ru", "qué es el rutenio?", "que es el rutenio?", "cómo es el rutenio?", "como es el rutenio?", "háblame sobre el rutenio", "hablame sobre el rutenio", "háblame del elemento con número atómico 44", "hablame del elemento con numero atomico 44", "44", "el rutenio", "catalizadores y rutenio", "catalizadores y rutenio" ],
+    "responses": ["El rutenio (Ru) es un metal de transición con número atómico 44, masa atómica de 101.07 u, densidad de 12.37 g/cm3 y configuración electrónica [Kr] 4d7 5s1. Se encuentra en el grupo 8 y período 5, con un punto de fusión de 2334 °C y punto de ebullición de 4136 °C. Fue descubierto por Karl Ernst Claus en 1844 y se usa en la industria electrónica y como catalizador."]
+},
+{
+    "tag": "rodio",
+    "patterns": [ "rodio", "Rh", "elemento Rh", "qué es el rodio?", "que es el rodio?", "cómo es el rodio?", "como es el rodio?", "háblame sobre el rodio", "hablame sobre el rodio", "rodio en la industria", "que hace el rodio?", "información sobre el rodio", "hablame sobre el elemento con número atómico 45", "hablame sobre el elemento con numero atomico 45", "45", "el rodio" ],
+    "responses": ["El rodio (Rh) es un metal de transición con número atómico 45, masa atómica de 102.905 u, densidad de 12.41 g/cm3 y configuración electrónica [Kr] 4d8 5s1. Se encuentra en el grupo 9 y período 5, con un punto de fusión de 1964 °C y punto de ebullición de 3695 °C. Fue descubierto por William Hyde Wollaston en 1803 y se utiliza en catalizadores y joyería."]
+},
+{
+    "tag": "paladio",
+    "patterns": [ "paladio", "Pd", "elemento Pd", "qué es el paladio?", "que es el paladio?", "cómo es el paladio?", "como es el paladio?", "háblame sobre el paladio", "hablame sobre el paladio", "paladio en la industria", "que hace el paladio?", "información sobre el paladio", "hablame sobre el elemento con número atómico 46", "hablame sobre el elemento con numero atomico 46", "46", "el paladio" ],
+    "responses": ["El paladio (Pd) es un metal de transición con número atómico 46, grupo 10 y período 5, masa atómica de 106.42 u, configuración electrónica [Kr] 4d10, densidad de 12.023 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.20, se encuentra en minerales como la palladita, se usa en catalizadores y joyería, con un punto de fusión de 1555 °C y un punto de ebullición de 2963 °C, descubierto por William Hyde Wollaston en 1803."]
+},
+{
+    "tag": "plata",
+    "patterns": [ "plata", "Ag", "elemento Ag", "qué es la plata?", "que es la plata?", "cómo es la plata?", "como es la plata?", "háblame sobre la plata", "hablame sobre la plata", "plata en la industria", "que hace la plata?", "información sobre la plata", "hablame sobre el elemento con número atómico 47", "hablame sobre el elemento con numero atomico 47", "47", "la plata" ],
+    "responses": ["La plata (Ag) es un metal de transición con número atómico 47, grupo 11 y período 5, masa atómica de 107.868 u, configuración electrónica [Kr] 4d10 5s1, densidad de 10.49 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.93, se encuentra en minerales como la argentita, se usa en joyería y fabricación de monedas, con un punto de fusión de 961.8 °C y un punto de ebullición de 2162 °C, conocido desde la antigüedad."]
+},
+{
+    "tag": "cadmio",
+    "patterns": [ "cadmio", "Cd", "elemento Cd", "qué es el cadmio?", "que es el cadmio?", "cómo es el cadmio?", "como es el cadmio?", "háblame sobre el cadmio", "hablame sobre el cadmio", "cadmio en la industria", "que hace el cadmio?", "información sobre el cadmio", "hablame sobre el elemento con número atómico 48", "hablame sobre el elemento con numero atomico 48", "48", "el cadmio" ],
+    "responses": ["El cadmio (Cd) es un metal de transición con número atómico 48, grupo 12 y período 5, masa atómica de 112.414 u, configuración electrónica [Kr] 4d10 5s2, densidad de 8.65 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.69, se encuentra en minerales como la cadmita, se usa en baterías recargables y recubrimientos, con un punto de fusión de 321.07 °C y un punto de ebullición de 767 °C, descubierto por Friedrich Strohmeyer en 1817."]
+},
+{
+    "tag": "indio",
+    "patterns": [ "indio", "In", "elemento In", "qué es el indio?", "que es el indio?", "cómo es el indio?", "como es el indio?", "háblame sobre el indio", "hablame sobre el indio", "indio en la industria", "que hace el indio?", "información sobre el indio", "hablame sobre el elemento con número atómico 49", "hablame sobre el elemento con numero atomico 49", "49", "el indio" ],
+    "responses": ["El indio (In) es un metal con número atómico 49, grupo 13 y período 5, masa atómica de 114.818 u, configuración electrónica [Kr] 4d10 5s2 5p1, densidad de 7.31 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.78, se encuentra en minerales como la índita, se usa en pantallas táctiles y soldaduras, con un punto de fusión de 156.6 °C y un punto de ebullición de 2072 °C, descubierto por Ferdinand Reich y Hieronymous Theodor Richter en 1863."]
+},
+{
+    "tag": "estano",
+    "patterns": [ "estaño", "Sn", "elemento Sn", "qué es el estaño?", "que es el estaño?", "cómo es el estaño?", "como es el estaño?", "háblame sobre el estaño", "hablame sobre el estaño", "estaño en la industria", "que hace el estaño?", "información sobre el estaño", "hablame sobre el elemento con número atómico 50", "hablame sobre el elemento con numero atomico 50", "50", "el estaño" ],
+    "responses": ["El estaño (Sn) es un metal con número atómico 50, grupo 14 y período 5, masa atómica de 118.710 u, configuración electrónica [Kr] 4d10 5s2 5p2, densidad de 7.31 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.96, se encuentra en minerales como la casiterita, se usa en la fabricación de soldaduras y recubrimientos metálicos, con un punto de fusión de 231.93 °C y un punto de ebullición de 2602 °C, conocido desde la antigüedad."]
+},
+{
+    "tag": "antimonio",
+    "patterns": [ "antimonio", "Sb", "elemento Sb", "qué es el antimonio?", "que es el antimonio?", "cómo es el antimonio?", "como es el antimonio?", "háblame sobre el antimonio", "hablame sobre el antimonio", "antimonio en la industria", "que hace el antimonio?", "información sobre el antimonio", "hablame sobre el elemento con número atómico 51", "hablame sobre el elemento con numero atomico 51", "51", "el antimonio" ],
+    "responses": ["El antimonio (Sb) es un metaloide con número atómico 51, grupo 15 y período 5, masa atómica de 121.76 u, configuración electrónica [Kr] 4d10 5s2 5p3, densidad de 6.697 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.05, se encuentra en minerales como la estibina, se usa en aleaciones e industria de baterías, con un punto de fusión de 630.63 °C y un punto de ebullición de 1587 °C, conocido desde la antigüedad."]
+},
+{
+    "tag": "telurio",
+    "patterns": [ "telurio", "Te", "elemento Te", "qué es el telurio?", "que es el telurio?", "cómo es el telurio?", "como es el telurio?", "háblame sobre el telurio", "hablame sobre el telurio", "telurio en la industria", "que hace el telurio?", "información sobre el telurio", "hablame sobre el elemento con número atómico 52", "hablame sobre el elemento con numero atomico 52", "52", "el telurio" ],
+    "responses": ["El telurio (Te) es un metaloide con número atómico 52, grupo 16 y período 5, masa atómica de 127.60 u, configuración electrónica [Kr] 4d10 5s2 5p4, densidad de 6.24 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.01, se encuentra en minerales como la telurita, se usa en células solares y aleaciones, con un punto de fusión de 449.51 °C y un punto de ebullición de 988 °C, descubierto por Franz-Joseph Müller von Reichenstein en 1782."]
+},
+{
+    "tag": "yodo",
+    "patterns": [ "yodo", "I", "elemento I", "qué es el yodo?", "que es el yodo?", "cómo es el yodo?", "como es el yodo?", "háblame sobre el yodo", "hablame sobre el yodo", "yodo en la industria", "que hace el yodo?", "información sobre el yodo", "hablame sobre el elemento con número atómico 53", "hablame sobre el elemento con numero atomico 53", "53", "el yodo" ],
+    "responses": ["El yodo (I) es un halógeno con número atómico 53, grupo 17 y período 5, masa atómica de 126.904 u, configuración electrónica [Kr] 4d10 5s2 5p5, densidad de 4.93 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.66, se encuentra en minerales como la calaverita, se usa en medicina (desinfectantes, yoduro) y fabricación de tintes, con un punto de fusión de 113.7 °C y un punto de ebullición de 184.3 °C, descubierto por Bernard Courtois en 1811."]
+},
+{
+    "tag": "xenon",
+    "patterns": [ "xenon", "Xe", "elemento Xe", "qué es el xenon?", "que es el xenon?", "cómo es el xenon?", "como es el xenon?", "háblame sobre el xenon", "hablame sobre el xenon", "xenon en la industria", "que hace el xenon?", "información sobre el xenon", "hablame sobre el elemento con número atómico 54", "hablame sobre el elemento con numero atomico 54", "54", "el xenon" ],
+    "responses": ["El xenón (Xe) es un gas noble con número atómico 54, grupo 18 y período 5, masa atómica de 131.293 u, configuración electrónica [Kr] 4d10 5s2 5p6, densidad de 5.894 g/L, estado gaseoso a temperatura ambiente, sin electronegatividad, se encuentra en la atmósfera, se usa en lámparas de xenón y en anestesia, con un punto de fusión de -111.8 °C y un punto de ebullición de -108.1 °C, descubierto por William Ramsay y Morris Travers en 1898."]
+},
+{
+    "tag": "cesio",
+    "patterns": [ "cesio", "Cs", "elemento Cs", "qué es el cesio?", "que es el cesio?", "cómo es el cesio?", "como es el cesio?", "háblame sobre el cesio", "hablame sobre el cesio", "cesio en la industria", "que hace el cesio?", "información sobre el cesio", "hablame sobre el elemento con número atómico 55", "hablame sobre el elemento con numero atomico 55", "55", "el cesio" ],
+    "responses": ["El cesio (Cs) es un metal alcalino con número atómico 55, grupo 1 y período 6, masa atómica de 132.905 u, configuración electrónica [Xe] 6s1, densidad de 1.93 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 0.79, se encuentra en minerales como la pollucita, se usa en relojes atómicos y en investigaciones científicas, con un punto de fusión de 28.44 °C y un punto de ebullición de 671 °C, descubierto por Robert Bunsen y Gustav Kirchhoff en 1860."]
+},
+{
+    "tag": "bario",
+    "patterns": ["bario", "Ba", "información sobre bario", "que sabes sobre el elemento bario", "hablame sobre el bario", "bario info", "info bario", "que es el bario", "info bario", "informacion sobre el bario", "que es el bario", "que es el bario?", "bario tabla periodica", "hablame sobre el elemento con número atómico 56", "hablame sobre el elemento con numero atomico 56", "56", "el bario" ],
+    "responses": ["El bario (Ba) es un metal alcalinotérreo con número atómico 56, grupo 2 y período 6, masa atómica de 137.327 u, configuración electrónica [Xe] 6s2, densidad de 3.62 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 0.89, se encuentra en minerales como la barita, se usa en la fabricación de fuegos artificiales y en la industria petrolera, con un punto de fusión de 725 °C y un punto de ebullición de 1140 °C, descubierto por Humphry Davy en 1808."]
+},
+{
+    "tag": "lantano",
+    "patterns": [ "lantano", "La", "elemento La", "qué es el lantano?", "que es el lantano?", "cómo es el lantano?", "como es el lantano?", "háblame sobre el lantano", "hablame sobre el lantano", "lantano en la industria", "que hace el lantano?", "información sobre el lantano", "hablame sobre el elemento con número atómico 57", "hablame sobre el elemento con numero atomico 57", "57", "el lantano" ],
+    "responses": ["El lantano (La) es un lantánido con número atómico 57, masa atómica de 138.905 u, densidad de 6.15 g/cm3 y configuración electrónica [Xe] 5d1 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 920 °C y punto de ebullición de 3469 °C. Descubierto por Carl Gustav Mosander en 1839, se encuentra en minerales como la monacita, y se utiliza en baterías recargables y en la fabricación de imanes."]
+},
+{
+    "tag": "cerio",
+    "patterns": [ "cerio", "Ce", "elemento Ce", "qué es el cerio?", "que es el cerio?", "cómo es el cerio?", "como es el cerio?", "háblame sobre el cerio", "hablame sobre el cerio", "cerio en la industria", "que hace el cerio?", "información sobre el cerio", "hablame sobre el elemento con número atómico 58", "hablame sobre el elemento con numero atomico 58", "58", "el cerio" ],
+    "responses": ["El cerio (Ce) es un lantánido con número atómico 58, masa atómica de 140.116 u, densidad de 6.77 g/cm3 y configuración electrónica [Xe] 4f1 5d1 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 798 °C y punto de ebullición de 3257 °C. Descubierto por Martin Heinrich Klaproth en 1803, se encuentra en minerales como la cerita, y se utiliza en catalizadores y en la fabricación de aleaciones."]
+},
+{
+    "tag": "praseodimio",
+    "patterns": [ "praseodimio", "Pr", "elemento Pr", "qué es el praseodimio?", "que es el praseodimio?", "cómo es el praseodimio?", "como es el praseodimio?", "háblame sobre el praseodimio", "hablame sobre el praseodimio", "praseodimio en la industria", "que hace el praseodimio?", "información sobre el praseodimio", "hablame sobre el elemento con número atómico 59", "hablame sobre el elemento con numero atomico 59", "59", "el praseodimio" ],
+    "responses": ["El praseodimio (Pr) es un lantánido con número atómico 59, masa atómica de 140.907 u, densidad de 6.77 g/cm3 y configuración electrónica [Xe] 4f3 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 931 °C y punto de ebullición de 3273 °C. Descubierto por Carl Auer von Welsbach en 1885, se encuentra en minerales como la monacita, y se utiliza en aleaciones y en la fabricación de imanes permanentes."]
+},
+{
+    "tag": "neodimio",
+    "patterns": [ "neodimio", "Nd", "elemento Nd", "qué es el neodimio?", "que es el neodimio?", "cómo es el neodimio?", "como es el neodimio?", "háblame sobre el neodimio", "hablame sobre el neodimio", "neodimio en la industria", "que hace el neodimio?", "información sobre el neodimio", "hablame sobre el elemento con número atómico 60", "hablame sobre el elemento con numero atomico 60", "60", "el neodimio" ],
+    "responses": ["El neodimio (Nd) es un lantánido con número atómico 60, masa atómica de 144.242 u, densidad de 7.01 g/cm3 y configuración electrónica [Xe] 4f4 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 1021 °C y punto de ebullición de 3074 °C. Descubierto por Carl Auer von Welsbach en 1885, se encuentra en minerales como la monacita, y se utiliza en imanes de alta potencia y en láseres."]
+},
+{
+    "tag": "prometio",
+    "patterns": [ "prometio", "Pm", "elemento Pm", "qué es el prometio?", "que es el prometio?", "cómo es el prometio?", "como es el prometio?", "háblame sobre el prometio", "hablame sobre el prometio", "prometio en la industria", "que hace el prometio?", "información sobre el prometio", "hablame sobre el elemento con número atómico 61", "hablame sobre el elemento con numero atomico 61", "61", "el prometio" ],
+    "responses": ["El prometio (Pm) es un lantánido radiactivo con número atómico 61, masa atómica de 145 u, densidad de 7.264 g/cm3 y configuración electrónica [Xe] 4f5 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 1100 °C y punto de ebullición de 3000 °C. Descubierto por Albert Ghiorso, Glenn Seaborg y Ralph James en 1945, se produce sintéticamente y se utiliza en fuentes de energía nuclear."]
+},
+{
+    "tag": "samario",
+    "patterns": [ "samario", "Sm", "elemento Sm", "qué es el samario?", "que es el samario?", "cómo es el samario?", "como es el samario?", "háblame sobre el samario", "hablame sobre el samario", "samario en la industria", "que hace el samario?", "información sobre el samario", "hablame sobre el elemento con número atómico 62", "hablame sobre el elemento con numero atomico 62", "62", "el samario" ],
+    "responses": ["El samario (Sm) es un lantánido con número atómico 62, masa atómica de 150.36 u, densidad de 7.52 g/cm3 y configuración electrónica [Xe] 4f6 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 1072 °C y punto de ebullición de 1800 °C. Descubierto por Paul-Émile Lecoq de Boisbaudran en 1853, se encuentra en minerales como la monacita, y se utiliza en imanes y en reactores nucleares."]
+},
+{
+    "tag": "lantano",
+    "patterns": [ "lantano", "La", "elemento La", "qué es el lantano?", "que es el lantano?", "cómo es el lantano?", "como es el lantano?", "háblame sobre el lantano", "hablame sobre el lantano", "lantano en la industria", "que hace el lantano?", "información sobre el lantano", "hablame sobre el elemento con número atómico 57", "hablame sobre el elemento con numero atomico 57", "57", "el lantano" ],
+    "responses": ["El lantano (La) es un lantánido con número atómico 57, masa atómica de 138.905 u, densidad de 6.15 g/cm3 y configuración electrónica [Xe] 5d1 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 920 °C y punto de ebullición de 3469 °C. Descubierto por Carl Gustav Mosander en 1839, se encuentra en minerales como la monacita, y se utiliza en baterías recargables y en la fabricación de imanes."]
+},
+{
+    "tag": "cerio",
+    "patterns": [ "cerio", "Ce", "elemento Ce", "qué es el cerio?", "que es el cerio?", "cómo es el cerio?", "como es el cerio?", "háblame sobre el cerio", "hablame sobre el cerio", "cerio en la industria", "que hace el cerio?", "información sobre el cerio", "hablame sobre el elemento con número atómico 58", "hablame sobre el elemento con numero atomico 58", "58", "el cerio" ],
+    "responses": ["El cerio (Ce) es un lantánido con número atómico 58, masa atómica de 140.116 u, densidad de 6.77 g/cm3 y configuración electrónica [Xe] 4f1 5d1 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 798 °C y punto de ebullición de 3257 °C. Descubierto por Martin Heinrich Klaproth en 1803, se encuentra en minerales como la cerita, y se utiliza en catalizadores y en la fabricación de aleaciones."]
+},
+{
+    "tag": "praseodimio",
+    "patterns": [ "praseodimio", "Pr", "elemento Pr", "qué es el praseodimio?", "que es el praseodimio?", "cómo es el praseodimio?", "como es el praseodimio?", "háblame sobre el praseodimio", "hablame sobre el praseodimio", "praseodimio en la industria", "que hace el praseodimio?", "información sobre el praseodimio", "hablame sobre el elemento con número atómico 59", "hablame sobre el elemento con numero atomico 59", "59", "el praseodimio" ],
+    "responses": ["El praseodimio (Pr) es un lantánido con número atómico 59, masa atómica de 140.907 u, densidad de 6.77 g/cm3 y configuración electrónica [Xe] 4f3 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 931 °C y punto de ebullición de 3273 °C. Descubierto por Carl Auer von Welsbach en 1885, se encuentra en minerales como la monacita, y se utiliza en aleaciones y en la fabricación de imanes permanentes."]
+},
+{
+    "tag": "neodimio",
+    "patterns": [ "neodimio", "Nd", "elemento Nd", "qué es el neodimio?", "que es el neodimio?", "cómo es el neodimio?", "como es el neodimio?", "háblame sobre el neodimio", "hablame sobre el neodimio", "neodimio en la industria", "que hace el neodimio?", "información sobre el neodimio", "hablame sobre el elemento con número atómico 60", "hablame sobre el elemento con numero atomico 60", "60", "el neodimio" ],
+    "responses": ["El neodimio (Nd) es un lantánido con número atómico 60, masa atómica de 144.242 u, densidad de 7.01 g/cm3 y configuración electrónica [Xe] 4f4 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 1021 °C y punto de ebullición de 3074 °C. Descubierto por Carl Auer von Welsbach en 1885, se encuentra en minerales como la monacita, y se utiliza en imanes de alta potencia y en láseres."]
+},
+{
+    "tag": "prometio",
+    "patterns": [ "prometio", "Pm", "elemento Pm", "qué es el prometio?", "que es el prometio?", "cómo es el prometio?", "como es el prometio?", "háblame sobre el prometio", "hablame sobre el prometio", "prometio en la industria", "que hace el prometio?", "información sobre el prometio", "hablame sobre el elemento con número atómico 61", "hablame sobre el elemento con numero atomico 61", "61", "el prometio" ],
+    "responses": ["El prometio (Pm) es un lantánido radiactivo con número atómico 61, masa atómica de 145 u, densidad de 7.264 g/cm3 y configuración electrónica [Xe] 4f5 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 1100 °C y punto de ebullición de 3000 °C. Descubierto por Albert Ghiorso, Glenn Seaborg y Ralph James en 1945, se produce sintéticamente y se utiliza en fuentes de energía nuclear."]
+},
+{
+    "tag": "samario",
+    "patterns": [ "samario", "Sm", "elemento Sm", "qué es el samario?", "que es el samario?", "cómo es el samario?", "como es el samario?", "háblame sobre el samario", "hablame sobre el samario", "samario en la industria", "que hace el samario?", "información sobre el samario", "hablame sobre el elemento con número atómico 62", "hablame sobre el elemento con numero atomico 62", "62", "el samario" ],
+    "responses": ["El samario (Sm) es un lantánido con número atómico 62, masa atómica de 150.36 u, densidad de 7.52 g/cm3 y configuración electrónica [Xe] 4f6 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 1072 °C y punto de ebullición de 1800 °C. Descubierto por Paul-Émile Lecoq de Boisbaudran en 1853, se encuentra en minerales como la monacita, y se utiliza en imanes y en reactores nucleares."]
+},
+{
+    "tag": "europio",
+    "patterns": [ "europio", "Eu", "elemento Eu", "qué es el europio?", "que es el europio?", "cómo es el europio?", "como es el europio?", "háblame sobre el europio", "hablame sobre el europio", "europio en la industria", "que hace el europio?", "información sobre el europio", "hablame sobre el elemento con número atómico 63", "hablame sobre el elemento con numero atomico 63", "63", "el europio" ],
+    "responses": ["El europio (Eu) es un lantánido con número atómico 63, masa atómica de 151.98 u, densidad de 5.243 g/cm3 y configuración electrónica [Xe] 4f7 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 826 °C y punto de ebullición de 1597 °C. Descubierto por Jean Charles Galissard de Marignac en 1841, se encuentra en minerales como la monacita, y se utiliza en pantallas fluorescentes y en lámparas de neón."]
+},
+{
+    "tag": "gadolinio",
+    "patterns": [ "gadolinio", "Gd", "elemento Gd", "qué es el gadolinio?", "que es el gadolinio?", "cómo es el gadolinio?", "como es el gadolinio?", "háblame sobre el gadolinio", "hablame sobre el gadolinio", "gadolinio en la industria", "que hace el gadolinio?", "información sobre el gadolinio", "hablame sobre el elemento con número atómico 64", "hablame sobre el elemento con numero atomico 64", "64", "el gadolinio" ],
+    "responses": ["El gadolinio (Gd) es un lantánido con número atómico 64, masa atómica de 157.25 u, densidad de 7.90 g/cm3 y configuración electrónica [Xe] 4f7 5d1 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 1313 °C y punto de ebullición de 3273 °C. Descubierto por Johan Gadolin en 1880, se encuentra en minerales como la gadolinita, y se utiliza en la fabricación de imanes y en resonancia magnética."]
+},
+{
+    "tag": "terbio",
+    "patterns": [ "terbio", "Tb", "elemento Tb", "qué es el terbio?", "que es el terbio?", "cómo es el terbio?", "como es el terbio?", "háblame sobre el terbio", "hablame sobre el terbio", "terbio en la industria", "que hace el terbio?", "información sobre el terbio", "hablame sobre el elemento con número atómico 65", "hablame sobre el elemento con numero atomico 65", "65", "el terbio" ],
+    "responses": ["El terbio (Tb) es un lantánido con número atómico 65, masa atómica de 158.93 u, densidad de 8.23 g/cm3 y configuración electrónica [Xe] 4f9 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 1356 °C y punto de ebullición de 3230 °C. Descubierto por Carl Auer von Welsbach en 1843, se encuentra en minerales como la monacita, y se utiliza en imanes y en la fabricación de lámparas fluorescentes."]
+},
+{
+    "tag": "disprosio",
+    "patterns": [ "disprosio", "Dy", "elemento Dy", "qué es el disprosio?", "que es el disprosio?", "cómo es el disprosio?", "como es el disprosio?", "háblame sobre el disprosio", "hablame sobre el disprosio", "disprosio en la industria", "que hace el disprosio?", "información sobre el disprosio", "hablame sobre el elemento con número atómico 66", "hablame sobre el elemento con numero atomico 66", "66", "el disprosio" ],
+    "responses": ["El disprosio (Dy) es un lantánido con número atómico 66, masa atómica de 162.5 u, densidad de 8.55 g/cm3 y configuración electrónica [Xe] 4f10 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 1407 °C y punto de ebullición de 2567 °C. Descubierto por Paul-Émile Lecoq de Boisbaudran en 1886, se encuentra en minerales como la monacita, y se utiliza en imanes y en la fabricación de reactores nucleares."]
+},
+{
+    "tag": "holmio",
+    "patterns": [ "holmio", "Ho", "elemento Ho", "qué es el holmio?", "que es el holmio?", "cómo es el holmio?", "como es el holmio?", "háblame sobre el holmio", "hablame sobre el holmio", "holmio en la industria", "que hace el holmio?", "información sobre el holmio", "hablame sobre el elemento con número atómico 67", "hablame sobre el elemento con numero atomico 67", "67", "el holmio" ],
+    "responses": ["El holmio (Ho) es un lantánido con número atómico 67, masa atómica de 164.93 u, densidad de 8.795 g/cm3 y configuración electrónica [Xe] 4f11 6s2. Se encuentra en el grupo 3 y período 6, con un punto de fusión de 1461 °C y punto de ebullición de 2635 °C. Descubierto por Per Theodor Cleve en 1879, se encuentra en minerales como la monacita, y se utiliza en láseres y en aplicaciones nucleares."]
+},
+{
+    "tag": "erbio",
+    "patterns": [ "erbio", "Er", "elemento Er", "qué es el erbio?", "que es el erbio?", "cómo es el erbio?", "como es el erbio?", "háblame sobre el erbio", "hablame sobre el erbio", "erbio en la industria", "que hace el erbio?", "información sobre el erbio", "hablame sobre el elemento con número atómico 68", "hablame sobre el elemento con numero atomico 68", "68", "el erbio" ],
+    "responses": ["El erbio (Er) es un lantánido con número atómico 68, masa atómica de 167.26 u, configuración electrónica [Xe] 4f12 6s2, densidad de 9.07 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.24, se encuentra en minerales como la erbia, se utiliza en láseres y fibra óptica, con un punto de fusión de 1527 °C y un punto de ebullición de 2510 °C, descubierto por Carl Gustaf Mosander en 1843."]
+},
+{
+    "tag": "tulio",
+    "patterns": [ "tulio", "Tm", "elemento Tm", "qué es el tulio?", "que es el tulio?", "cómo es el tulio?", "como es el tulio?", "háblame sobre el tulio", "hablame sobre el tulio", "tulio en la industria", "que hace el tulio?", "información sobre el tulio", "hablame sobre el elemento con número atómico 69", "hablame sobre el elemento con numero atomico 69", "69", "el tulio" ],
+    "responses": ["El tulio (Tm) es un lantánido con número atómico 69, masa atómica de 168.93 u, configuración electrónica [Xe] 4f13 6s2, densidad de 9.32 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.25, se encuentra en minerales como la monacita, se utiliza en rayos X y pantallas de fósforo, con un punto de fusión de 1818 °C y un punto de ebullición de 2223 °C, descubierto por Carl Gustaf Mosander en 1828."]
+},
+{
+    "tag": "iterbio",
+    "patterns": [ "iterbio", "Yb", "elemento Yb", "qué es el iterbio?", "que es el iterbio?", "cómo es el iterbio?", "como es el iterbio?", "háblame sobre el iterbio", "hablame sobre el iterbio", "iterbio en la industria", "que hace el iterbio?", "información sobre el iterbio", "hablame sobre el elemento con número atómico 70", "hablame sobre el elemento con numero atomico 70", "70", "el iterbio" ],
+    "responses": ["El iterbio (Yb) es un lantánido con número atómico 70, masa atómica de 173.04 u, configuración electrónica [Xe] 4f14 6s2, densidad de 6.57 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.1, se encuentra en minerales como la iterbia, se utiliza en láseres y aleaciones especiales, con un punto de fusión de 824 °C y un punto de ebullición de 1196 °C, descubierto por Jean Charles Galissard de Marignac en 1878."]
+},
+{
+    "tag": "lutecio",
+    "patterns": [ "lutecio", "Lu", "elemento Lu", "qué es el lutecio?", "que es el lutecio?", "cómo es el lutecio?", "como es el lutecio?", "háblame sobre el lutecio", "hablame sobre el lutecio", "lutecio en la industria", "que hace el lutecio?", "información sobre el lutecio", "hablame sobre el elemento con número atómico 71", "hablame sobre el elemento con numero atomico 71", "71", "el lutecio" ],
+    "responses": ["El lutecio (Lu) es un lantánido con número atómico 71, masa atómica de 174.97 u, configuración electrónica [Xe] 4f14 5d1, densidad de 9.84 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.27, se encuentra en minerales como la lutecita, se utiliza en catalizadores y dispositivos electrónicos, con un punto de fusión de 1663 °C y un punto de ebullición de 3402 °C, descubierto por Carl Auer von Welsbach en 1907."]
+},
+{
+    "tag": "hafnio",
+    "patterns": [ "hafnio", "Hf", "elemento Hf", "qué es el hafnio?", "que es el hafnio?", "cómo es el hafnio?", "como es el hafnio?", "háblame sobre el hafnio", "hablame sobre el hafnio", "hafnio en la industria", "que hace el hafnio?", "información sobre el hafnio", "hablame sobre el elemento con número atómico 72", "hablame sobre el elemento con numero atomico 72", "72", "el hafnio" ],
+    "responses": ["El hafnio (Hf) es un metal de transición con número atómico 72, masa atómica de 178.49 u, configuración electrónica [Xe] 4f14 5d2, densidad de 13.31 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.3, se encuentra en minerales como la hafnita, se utiliza en reactores nucleares y aleaciones de alta resistencia, con un punto de fusión de 2233 °C y un punto de ebullición de 4603 °C, descubierto por Dirk Coster y George de Hevesy en 1923."]
+},
+{
+    "tag": "tantalio",
+    "patterns":[ "hafnio", "Hf", "elemento Hf", "qué es el hafnio?", "que es el hafnio?", "cómo es el hafnio?", "como es el hafnio?", "háblame sobre el hafnio", "hablame sobre el hafnio", "hafnio en la industria", "que hace el hafnio?", "información sobre el hafnio", "hablame sobre el elemento con número atómico 72", "hablame sobre el elemento con numero atomico 72", "72", "el hafnio" ],
+    "responses": ["El tantalio (Ta) es un metal de transición con número atómico 73, masa atómica de 180.95 u, configuración electrónica [Xe] 4f14 5d3, densidad de 16.69 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.5, se encuentra en minerales como la tantalita, se utiliza en componentes electrónicos y dispositivos médicos, con un punto de fusión de 2996 °C y un punto de ebullición de 5458 °C, descubierto por Anders Ekeberg en 1802."]
+},
+{
+    "tag": "wolframio",
+    "patterns": [ "hafnio", "Hf", "elemento Hf", "qué es el hafnio?", "que es el hafnio?", "cómo es el hafnio?", "como es el hafnio?", "háblame sobre el hafnio", "hablame sobre el hafnio", "hafnio en la industria", "que hace el hafnio?", "información sobre el hafnio", "hablame sobre el elemento con número atómico 72", "hablame sobre el elemento con numero atomico 72", "72", "el hafnio" ],
+    "responses": ["El wolframio (W) es un metal de transición con número atómico 74, masa atómica de 183.84 u, configuración electrónica [Xe] 4f14 5d4, densidad de 19.25 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.36, se encuentra en minerales como el wolframio, se utiliza en filamentos de bombillas y herramientas de corte, con un punto de fusión de 3422 °C y un punto de ebullición de 5930 °C, descubierto por Fausto y Juan José de Elhuyar en 1783."]
+},
+{
+    "tag": "renio",
+    "patterns": [ "renio", "Re", "elemento Re", "qué es el renio?", "que es el renio?", "cómo es el renio?", "como es el renio?", "háblame sobre el renio", "hablame sobre el renio", "renio en la industria", "que hace el renio?", "información sobre el renio", "hablame sobre el elemento con número atómico 75", "hablame sobre el elemento con numero atomico 75", "75", "el renio" ],
+    "responses": ["El renio (Re) es un metal de transición con número atómico 75, masa atómica de 186.21 u, configuración electrónica [Xe] 4f14 5d5, densidad de 21.02 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.9, se encuentra en minerales como la renita, se utiliza en aleaciones de alta resistencia y sistemas de catalizadores, con un punto de fusión de 3186 °C y un punto de ebullición de 5596 °C, descubierto por Masataka Ogawa en 1925."]
+},
+{
+    "tag": "osmio",
+    "patterns": [ "osmio", "Os", "elemento Os", "qué es el osmio?", "que es el osmio?", "cómo es el osmio?", "como es el osmio?", "háblame sobre el osmio", "hablame sobre el osmio", "osmio en la industria", "que hace el osmio?", "información sobre el osmio", "hablame sobre el elemento con número atómico 76", "hablame sobre el elemento con numero atomico 76", "76", "el osmio" ],
+    "responses": ["El osmio (Os) es un metal de transición con número atómico 76, masa atómica de 190.23 u, configuración electrónica [Xe] 4f14 5d6, densidad de 22.59 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.2, se encuentra en minerales como la osmiridio, se utiliza en contactos eléctricos e instrumentos de precisión, con un punto de fusión de 3033 °C y un punto de ebullición de 5027 °C, descubierto por Smithson Tennant en 1803."]
+},
+{
+    "tag": "platino",
+    "patterns": [ "platino", "Pt", "elemento Pt", "qué es el platino?", "que es el platino?", "cómo es el platino?", "como es el platino?", "háblame sobre el platino", "hablame sobre el platino", "platino en la industria", "que hace el platino?", "información sobre el platino", "hablame sobre el elemento con número atómico 78", "hablame sobre el elemento con numero atomico 78", "78", "el platino" ],
+    "responses": ["El platino (Pt) es un metal de transición con número atómico 78, masa atómica de 195.08 u, configuración electrónica [Xe] 4f14 5d9, densidad de 21.45 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.28, se encuentra en minerales como el platino, se utiliza en joyería y catalizadores de automóviles, con un punto de fusión de 1768 °C y un punto de ebullición de 3825 °C, descubierto por Antonio de Ulloa en 1735."]
+},
+{
+    "tag": "oro",
+    "patterns": [ "oro", "Au", "elemento Au", "qué es el oro?", "que es el oro?", "cómo es el oro?", "como es el oro?", "háblame sobre el oro", "hablame sobre el oro", "oro en la industria", "que hace el oro?", "información sobre el oro", "hablame sobre el elemento con número atómico 79", "hablame sobre el elemento con numero atomico 79", "79", "el oro" ],
+    "responses": ["El oro (Au) es un metal de transición con número atómico 79, masa atómica de 196.97 u, configuración electrónica [Xe] 4f14 5d10, densidad de 19.32 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.54, se encuentra en minerales como la mena de oro, se utiliza en joyería, electrónica y medicina, con un punto de fusión de 1064 °C y un punto de ebullición de 2970 °C, conocido desde la antigüedad."]
+},
+{
+    "tag": "mercurio",
+    "patterns": [ "mercurio", "Hg", "elemento Hg", "qué es el mercurio?", "que es el mercurio?", "cómo es el mercurio?", "como es el mercurio?", "háblame sobre el mercurio", "hablame sobre el mercurio", "mercurio en la industria", "que hace el mercurio?", "información sobre el mercurio", "hablame sobre el elemento con número atómico 80", "hablame sobre el elemento con numero atomico 80", "80", "el mercurio" ],
+    "responses": ["El mercurio (Hg) es un metal de transición con número atómico 80, masa atómica de 200.59 u, configuración electrónica [Xe] 4f14 5d10 6s2, densidad de 13.534 g/cm3, estado líquido a temperatura ambiente, electronegatividad de 2.00, se encuentra en minerales como la cinabrio, se utiliza en termómetros y en interruptores eléctricos, con un punto de fusión de -38.83 °C y un punto de ebullición de 356.73 °C, conocido desde la antigüedad."]
+},
+{
+    "tag": "talio",
+    "patterns": [ "talio", "Tl", "elemento Tl", "qué es el talio?", "que es el talio?", "cómo es el talio?", "como es el talio?", "háblame sobre el talio", "hablame sobre el talio", "talio en la industria", "que hace el talio?", "información sobre el talio", "hablame sobre el elemento con número atómico 81", "hablame sobre el elemento con numero atomico 81", "81", "el talio" ],
+    "responses": ["El talio (Tl) es un metal con número atómico 81, masa atómica de 204.38 u, configuración electrónica [Xe] 4f14 5d10 6s2 6p1, densidad de 11.85 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.04, se encuentra en minerales como la talita, se utiliza en pantallas de rayos catódicos y en semiconductores, con un punto de fusión de 304 °C y un punto de ebullición de 1460 °C, descubierto por William Crookes en 1861."]
+},
+{
+    "tag": "plomo",
+    "patterns": [ "talio", "Tl", "elemento Tl", "qué es el talio?", "que es el talio?", "cómo es el talio?", "como es el talio?", "háblame sobre el talio", "hablame sobre el talio", "talio en la industria", "que hace el talio?", "información sobre el talio", "hablame sobre el elemento con número atómico 81", "hablame sobre el elemento con numero atomico 81", "81", "el talio" ],
+    "responses": ["El plomo (Pb) es un metal con número atómico 82, masa atómica de 207.2 u, configuración electrónica [Xe] 4f14 5d10 6s2 6p2, densidad de 11.34 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.33, se encuentra en minerales como la galena, se utiliza en baterías y en protección contra radiación, con un punto de fusión de 327.46 °C y un punto de ebullición de 1749 °C, conocido desde la antigüedad."]
+},
+{
+    "tag": "bismuto",
+    "patterns": [ "bismuto", "Bi", "elemento Bi", "qué es el bismuto?", "que es el bismuto?", "cómo es el bismuto?", "como es el bismuto?", "háblame sobre el bismuto", "hablame sobre el bismuto", "bismuto en la industria", "que hace el bismuto?", "información sobre el bismuto", "hablame sobre el elemento con número atómico 83", "hablame sobre el elemento con numero atomico 83", "83", "el bismuto" ],
+    "responses": ["El bismuto (Bi) es un metal con número atómico 83, masa atómica de 208.98 u, configuración electrónica [Xe] 4f14 5d10 6s2 6p3, densidad de 9.78 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.02, se encuentra en minerales como la bismutita, se utiliza en aleaciones y en cosméticos, con un punto de fusión de 271.3 °C y un punto de ebullición de 1564 °C, conocido desde la antigüedad."]
+},
+{
+    "tag": "polonio",
+    "patterns": [ "polonio", "Po", "elemento Po", "qué es el polonio?", "que es el polonio?", "cómo es el polonio?", "como es el polonio?", "háblame sobre el polonio", "hablame sobre el polonio", "polonio en la industria", "que hace el polonio?", "información sobre el polonio", "hablame sobre el elemento con número atómico 84", "hablame sobre el elemento con numero atomico 84", "84", "el polonio" ],
+    "responses": ["El polonio (Po) es un no metal con número atómico 84, masa atómica de 209.98 u, configuración electrónica [Xe] 4f14 5d10 6s2 6p4, densidad de 9.32 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.0, se encuentra en minerales como el polonio, se utiliza en generadores termoeléctricos, con un punto de fusión de 254 °C y un punto de ebullición de 962 °C, descubierto por Marie Curie y Pierre Curie en 1898."]
+},
+{
+    "tag": "astato",
+    "patterns": [ "polonio", "Po", "elemento Po", "qué es el polonio?", "que es el polonio?", "cómo es el polonio?", "como es el polonio?", "háblame sobre el polonio", "hablame sobre el polonio", "polonio en la industria", "que hace el polonio?", "información sobre el polonio", "hablame sobre el elemento con número atómico 84", "hablame sobre el elemento con numero atomico 84", "84", "el polonio" ],
+    "responses": ["El astato (At) es un no metal con número atómico 85, masa atómica de 210 u, configuración electrónica [Xe] 4f14 5d10 6s2 6p5, densidad de 6.35 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 2.2, se forma en trazas a partir de isótopos radiactivos, se utiliza en radioterapia, con un punto de fusión de 302 °C y un punto de ebullición de 337 °C, descubierto por Dale R. Corson, K.R. MacKenzie y Emilio Segrè en 1940."]
+},
+{
+    "tag": "radon",
+    "patterns": [ "radon", "Rn", "elemento Rn", "qué es el radon?", "que es el radon?", "cómo es el radon?", "como es el radon?", "háblame sobre el radon", "hablame sobre el radon", "radon en la industria", "que hace el radon?", "información sobre el radon", "hablame sobre el elemento con número atómico 86", "hablame sobre el elemento con numero atomico 86", "86", "el radon" ],
+    "responses": ["El radón (Rn) es un gas noble con número atómico 86, masa atómica de 222 u, configuración electrónica [Xe] 4f14 5d10 6s2 6p6, densidad de 9.73 g/cm3, estado gaseoso a temperatura ambiente, electronegatividad de 2.2, se forma a partir de la descomposición del radón, se utiliza en terapia contra el cáncer, con un punto de fusión de -71 °C y un punto de ebullición de -61.8 °C, descubierto por Friedrich Dorn en 1899."]
+},
+{
+    "tag": "francio",
+    "patterns": [ "francio", "Fr", "elemento Fr", "qué es el francio?", "que es el francio?", "cómo es el francio?", "como es el francio?", "háblame sobre el francio", "hablame sobre el francio", "francio en la industria", "que hace el francio?", "información sobre el francio", "hablame sobre el elemento con número atómico 87", "hablame sobre el elemento con numero atomico 87", "87", "el francio" ],
+    "responses": ["El francio (Fr) es un metal alcalino con número atómico 87, masa atómica de 223 u, configuración electrónica [Rn] 7s1, densidad de 1.87 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 0.7, se encuentra raramente como producto de la desintegración radiactiva, no tiene aplicaciones comunes debido a su alta radiactividad, con un punto de fusión de 27 °C y un punto de ebullición de 677 °C, descubierto por Marguerite Perey en 1939."]
+},
+{
+    "tag": "radio",
+    "patterns": [ "radio", "Ra", "elemento Ra", "qué es el radio?", "que es el radio?", "cómo es el radio?", "como es el radio?", "háblame sobre el radio", "hablame sobre el radio", "radio en la industria", "que hace el radio?", "información sobre el radio", "hablame sobre el elemento con número atómico 88", "hablame sobre el elemento con numero atomico 88", "88", "el radio" ],
+    "responses": ["El radio (Ra) es un metal alcalinotérreo con número atómico 88, masa atómica de 226 u, configuración electrónica [Xe] 4f14 5d10 6s2 7s2, densidad de 5.5 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 0.9, se encuentra en minerales como la radia, se utiliza en radioterapia, con un punto de fusión de 700 °C y un punto de ebullición de 1413 °C, descubierto por Marie y Pierre Curie en 1898."]
+},
+{
+    "tag": "actinio",
+    "patterns": [ "actinio", "Ac", "elemento Ac", "qué es el actinio?", "que es el actinio?", "cómo es el actinio?", "como es el actinio?", "háblame sobre el actinio", "hablame sobre el actinio", "actinio en la industria", "que hace el actinio?", "información sobre el actinio", "hablame sobre el elemento con número atómico 89", "hablame sobre el elemento con numero atomico 89", "89", "el actinio" ],
+    "responses": ["El actinio (Ac) es un actínido con número atómico 89, masa atómica de 227 u, configuración electrónica [Xe] 4f14 5d10 6s2 7s2, densidad de 10.07 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.1, se encuentra en minerales radiactivos, se utiliza en reactores nucleares, con un punto de fusión de 1050 °C y un punto de ebullición de 3000 °C, descubierto por Friedrich Oskar Giesel en 1899."]
+},
+{
+    "tag": "torio",
+    "patterns": [ "torio", "Th", "elemento Th", "qué es el torio?", "que es el torio?", "cómo es el torio?", "como es el torio?", "háblame sobre el torio", "hablame sobre el torio", "torio en la industria", "que hace el torio?", "información sobre el torio", "hablame sobre el elemento con número atómico 90", "hablame sobre el elemento con numero atomico 90", "90", "el torio" ],
+    "responses": ["El torio (Th) es un actínido con número atómico 90, masa atómica de 232.04 u, configuración electrónica [Rn] 6s2 7s2, densidad de 11.72 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.3, se encuentra en minerales como la torianita, se utiliza en reactores nucleares, con un punto de fusión de 1750 °C y un punto de ebullición de 4790 °C, descubierto por Jöns Jacob Berzelius en 1828."]
+},
+{
+    "tag": "protactinio",
+    "patterns": [ "protactinio", "Pa", "elemento Pa", "qué es el protactinio?", "que es el protactinio?", "cómo es el protactinio?", "como es el protactinio?", "háblame sobre el protactinio", "hablame sobre el protactinio", "protactinio en la industria", "que hace el protactinio?", "información sobre el protactinio", "hablame sobre el elemento con número atómico 91", "hablame sobre el elemento con numero atomico 91", "91", "el protactinio" ],
+    "responses": ["El protactinio (Pa) es un actínido con número atómico 91, masa atómica de 231.04 u, configuración electrónica [Rn] 5f2 6d1 7s2, densidad de 15.37 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.5, se encuentra en minerales radiactivos, se utiliza en reactores nucleares, con un punto de fusión de 1570 °C y un punto de ebullición de 4130 °C, descubierto por Otto Hahn y Lise Meitner en 1899."]
+},
+{
+    "tag": "uranio",
+    "patterns": [ "uranio", "U", "elemento U", "qué es el uranio?", "que es el uranio?", "cómo es el uranio?", "como es el uranio?", "háblame sobre el uranio", "hablame sobre el uranio", "uranio en la industria", "que hace el uranio?", "información sobre el uranio", "hablame sobre el elemento con número atómico 92", "hablame sobre el elemento con numero atomico 92", "92", "el uranio" ],
+    "responses": ["El uranio (U) es un actínido con número atómico 92, masa atómica de 238.03 u, configuración electrónica [Rn] 5f3 6d1 7s2, densidad de 18.95 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.38, se encuentra en minerales como la uraninita, se utiliza en reactores nucleares y en armas nucleares, con un punto de fusión de 1132 °C y un punto de ebullición de 4131 °C, descubierto por Martin Heinrich Klaproth en 1789."]
+},
+{
+    "tag": "neptunio",
+    "patterns": [ "neptunio", "Np", "elemento Np", "qué es el neptunio?", "que es el neptunio?", "cómo es el neptunio?", "como es el neptunio?", "háblame sobre el neptunio", "hablame sobre el neptunio", "neptunio en la industria", "que hace el neptunio?", "información sobre el neptunio", "hablame sobre el elemento con número atómico 93", "hablame sobre el elemento con numero atomico 93", "93", "el neptunio" ],
+    "responses": ["El neptunio (Np) es un actínido con número atómico 93, masa atómica de 237 u, configuración electrónica [Rn] 5f4 6d1 7s2, densidad de 20.45 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.36, se forma artificialmente en reactores nucleares, se utiliza en reactores nucleares, con un punto de fusión de 640 °C y un punto de ebullición de 4130 °C, descubierto por Glenn T. Seaborg en 1940."]
+},
+{
+    "tag": "plutonio",
+    "patterns": [ "plutonio", "Pu", "elemento Pu", "qué es el plutonio?", "que es el plutonio?", "cómo es el plutonio?", "como es el plutonio?", "háblame sobre el plutonio", "hablame sobre el plutonio", "plutonio en la industria", "que hace el plutonio?", "información sobre el plutonio", "hablame sobre el elemento con número atómico 94", "hablame sobre el elemento con numero atomico 94", "94", "el plutonio" ],
+    "responses": ["El plutonio (Pu) es un actínido con número atómico 94, masa atómica de 244 u, configuración electrónica [Rn] 5f6 7s2, densidad de 19.86 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.28, se forma artificialmente en reactores nucleares, se utiliza en reactores nucleares y en armas nucleares, con un punto de fusión de 640 °C y un punto de ebullición de 3235 °C, descubierto por Glenn T. Seaborg en 1940."]
+},
+{
+    "tag": "americio",
+    "patterns": [ "americio", "Am", "elemento Am", "qué es el americio?", "que es el americio?", "cómo es el americio?", "como es el americio?", "háblame sobre el americio", "hablame sobre el americio", "americio en la industria", "que hace el americio?", "información sobre el americio", "hablame sobre el elemento con número atómico 95", "hablame sobre el elemento con numero atomico 95", "95", "el americio" ],
+    "responses": ["El americio (Am) es un actínido con número atómico 95, masa atómica de 243 u, configuración electrónica [Rn] 5f7 7s2, densidad de 13.67 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.3, se forma artificialmente, se utiliza en reactores nucleares y en detectores de humo, con un punto de fusión de 1176 °C y un punto de ebullición de 2880 °C, descubierto por Glenn T. Seaborg en 1944."]
+},
+{
+    "tag": "curio",
+    "patterns": [ "curio", "Cm", "elemento Cm", "qué es el curio?", "que es el curio?", "cómo es el curio?", "como es el curio?", "háblame sobre el curio", "hablame sobre el curio", "curio en la industria", "que hace el curio?", "información sobre el curio", "hablame sobre el elemento con número atómico 96", "hablame sobre el elemento con numero atomico 96", "96", "el curio" ],
+    "responses": ["El curio (Cm) es un actínido con número atómico 96, masa atómica de 247 u, configuración electrónica [Rn] 5f7 7s2, densidad de 13.5 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.3, se forma artificialmente, se utiliza en reactores nucleares y en investigaciones científicas, con un punto de fusión de 1340 °C y un punto de ebullición de 3110 °C, descubierto por Albert Ghiorso, Glenn T. Seaborg y Ralph A. James en 1944."]
+},
+{
+    "tag": "berkelio",
+    "patterns": [ "berkelio", "Bk", "elemento Bk", "qué es el berkelio?", "que es el berkelio?", "cómo es el berkelio?", "como es el berkelio?", "háblame sobre el berkelio", "hablame sobre el berkelio", "berkelio en la industria", "que hace el berkelio?", "información sobre el berkelio", "hablame sobre el elemento con número atómico 97", "hablame sobre el elemento con numero atomico 97", "97", "el berkelio" ],
+    "responses": ["El berkelio (Bk) es un actínido con número atómico 97, masa atómica de 247 u, configuración electrónica [Rn] 5f9 7s2, densidad de 14.8 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.3, se forma artificialmente, se utiliza en investigaciones científicas y en reactores nucleares, con un punto de fusión de 1000 °C y un punto de ebullición de 2900 °C, descubierto por Albert Ghiorso, Glenn T. Seaborg y Ralph A. James en 1949."]
+},
+{
+    "tag": "californio",
+    "patterns": [ "laurencio", "qué es el laurencio?", "que es el laurencio?", "cómo es el laurencio?", "como es el laurencio?", "háblame sobre el laurencio", "hablame sobre el laurencio", "laurencio en la industria", "que hace el laurencio?", "información sobre el laurencio", "hablame sobre el elemento con número atómico 103", "hablame sobre el elemento con numero atomico 103", "el laurencio", "lawrencio", "qué es el lawrencio?", "que es el lawrencio?", "cómo es el lawrencio?", "como es el lawrencio?", "háblame sobre el lawrencio", "hablame sobre el lawrencio", "lawrencio en la industria", "que hace el lawrencio?", "información sobre el lawrencio", "hablame sobre el elemento con número atómico 103", "hablame sobre el elemento con numero atomico 103", "el lawrencio" ],
+    "responses": ["El californio (Cf) es un actínido con número atómico 98, masa atómica de 251 u, configuración electrónica [Rn] 5f10 7s2, densidad de 15.1 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.3, se forma artificialmente, se utiliza en reactores nucleares y en investigaciones científicas, con un punto de fusión de 900 °C y un punto de ebullición de 1470 °C, descubierto por Albert Ghiorso y Glenn T. Seaborg en 1950."]
+},
+{
+    "tag": "einstenio",
+    "patterns": [ "einstenio", "Es", "elemento Es", "qué es el einstenio?", "que es el einstenio?", "cómo es el einstenio?", "como es el einstenio?", "háblame sobre el einstenio", "hablame sobre el einstenio", "einstenio en la industria", "que hace el einstenio?", "información sobre el einstenio", "hablame sobre el elemento con número atómico 99", "hablame sobre el elemento con numero atomico 99", "99", "el einstenio" ],
+    "responses": ["El einstenio (Es) es un actínido con número atómico 99, masa atómica de 252 u, configuración electrónica [Rn] 5f11 7s2, densidad de 8.8 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión de 860 °C y un punto de ebullición de 1600 °C, descubierto por Albert Ghiorso, Glenn T. Seaborg y colaboradores en 1952."]
+},
+{
+    "tag": "fermio",
+    "patterns": [ "fermio", "Fm", "elemento Fm", "qué es el fermio?", "que es el fermio?", "cómo es el fermio?", "como es el fermio?", "háblame sobre el fermio", "hablame sobre el fermio", "fermio en la industria", "que hace el fermio?", "información sobre el fermio", "hablame sobre el elemento con número atómico 100", "hablame sobre el elemento con numero atomico 100", "100", "el fermio" ],
+    "responses": ["El fermio (Fm) es un actínido con número atómico 100, masa atómica de 257 u, configuración electrónica [Rn] 5f12 7s2, densidad de 9.7 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión de 1527 °C y un punto de ebullición de 2350 °C, descubierto por Albert Ghiorso y colaboradores en 1952."]
+},
+{
+    "tag": "mendelevio",
+    "patterns": [ "mendelevio", "Md", "elemento Md", "qué es el mendelevio?", "que es el mendelevio?", "cómo es el mendelevio?", "como es el mendelevio?", "háblame sobre el mendelevio", "hablame sobre el mendelevio", "mendelevio en la industria", "que hace el mendelevio?", "información sobre el mendelevio", "hablame sobre el elemento con número atómico 101", "hablame sobre el elemento con numero atomico 101", "101", "el mendelevio" ],
+    "responses": ["El mendelevio (Md) es un actínido con número atómico 101, masa atómica de 258 u, configuración electrónica [Rn] 5f13 7s2, densidad de 10.3 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión de 1100 °C y un punto de ebullición de 2000 °C, descubierto por Albert Ghiorso y colaboradores en 1955."]
+},
+{
+    "tag": "nobelio",
+    "patterns": [ "nobelio", "No", "elemento No", "qué es el nobelio?", "que es el nobelio?", "cómo es el nobelio?", "como es el nobelio?", "háblame sobre el nobelio", "hablame sobre el nobelio", "nobelio en la industria", "que hace el nobelio?", "información sobre el nobelio", "hablame sobre el elemento con número atómico 102", "hablame sobre el elemento con numero atomico 102", "102", "el nobelio" ],
+    "responses": ["El nobelio (No) es un actínido con número atómico 102, masa atómica de 259 u, configuración electrónica [Rn] 5f14 7s2, densidad de 9.7 g/cm3, estado sólido a temperatura ambiente, electronegatividad de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión de 1100 °C y un punto de ebullición de 2000 °C, descubierto por Albert Ghiorso y colaboradores en 1958."]
+},
+{
+    "tag": "laurencio",
+    "patterns": [ "laurencio", "Lr", "elemento Lr", "qué es el laurencio?", "que es el laurencio?", "cómo es el laurencio?", "como es el laurencio?", "háblame sobre el laurencio", "hablame sobre el laurencio", "laurencio en la industria", "que hace el laurencio?", "información sobre el laurencio", "hablame sobre el elemento con número atómico 103", "hablame sobre el elemento con numero atomico 103", "103", "el laurencio", "lawrencio", "Lawrencio", "lawrencio", "Lr", "elemento Lr", "qué es el lawrencio?", "que es el lawrencio?", "cómo es el lawrencio?", "como es el lawrencio?", "háblame sobre el lawrencio", "hablame sobre el lawrencio", "lawrencio en la industria", "que hace el lawrencio?", "información sobre el lawrencio", "hablame sobre el elemento con número atómico 103", "hablame sobre el elemento con numero atomico 103", "103", "el lawrencio", "laurencio", "Laurencio" ],
+    "responses": ["El laurencio (Lr) es un actínido con número atómico 103, masa atómica de 262 u, configuración electrónica [Rn] 5f14 7s2, densidad estimada de 10.0 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 1627 °C y un punto de ebullición estimado de 3000 °C, descubierto por Albert Ghiorso y colaboradores en 1961."]
+},
+{
+    "tag": "rutherfordio",
+    "patterns": [ "rutherfordio", "Rf", "elemento Rf", "qué es el rutherfordio?", "que es el rutherfordio?", "cómo es el rutherfordio?", "como es el rutherfordio?", "háblame sobre el rutherfordio", "hablame sobre el rutherfordio", "rutherfordio en la industria", "que hace el rutherfordio?", "información sobre el rutherfordio", "hablame sobre el elemento con número atómico 104", "hablame sobre el elemento con numero atomico 104", "104", "el rutherfordio" ],
+    "responses": ["El rutherfordio (Rf) es un metal de transición transuránico con número atómico 104, masa atómica de 267 u, configuración electrónica [Rn] 5f14 6d2 7s2, densidad estimada de 23 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 2400 °C y un punto de ebullición estimado de 4300 °C, descubierto por Albert Ghiorso y colaboradores en 1964."]
+},
+{
+    "tag": "dubnio",
+    "patterns": [ "dubnio", "Db", "elemento Db", "qué es el dubnio?", "que es el dubnio?", "cómo es el dubnio?", "como es el dubnio?", "háblame sobre el dubnio", "hablame sobre el dubnio", "dubnio en la industria", "que hace el dubnio?", "información sobre el dubnio", "hablame sobre el elemento con número atómico 105", "hablame sobre el elemento con numero atomico 105", "105", "el dubnio" ],
+    "responses": ["El dubnio (Db) es un metal de transición transuránico con número atómico 105, masa atómica de 270 u, configuración electrónica [Rn] 5f14 6d3 7s2, densidad estimada de 29 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 2000 °C y un punto de ebullición estimado de 4000 °C, descubierto por Yuri Oganessian y colaboradores en 1970."]
+},
+{
+    "tag": "seaborgio",
+    "patterns": [ "seaborgio", "Sg", "elemento Sg", "qué es el seaborgio?", "que es el seaborgio?", "cómo es el seaborgio?", "como es el seaborgio?", "háblame sobre el seaborgio", "hablame sobre el seaborgio", "seaborgio en la industria", "que hace el seaborgio?", "información sobre el seaborgio", "hablame sobre el elemento con número atómico 106", "hablame sobre el elemento con numero atomico 106", "106", "el seaborgio" ],
+    "responses": ["El seaborgio (Sg) es un metal de transición transuránico con número atómico 106, masa atómica de 271 u, configuración electrónica [Rn] 5f14 6d4 7s2, densidad estimada de 35 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 2000 °C y un punto de ebullición estimado de 3800 °C, descubierto por Albert Ghiorso y colaboradores en 1974."]
+},
+{
+    "tag": "bohrio",
+    "patterns": [ "bohrio", "Bh", "elemento Bh", "qué es el bohrio?", "que es el bohrio?", "cómo es el bohrio?", "como es el bohrio?", "háblame sobre el bohrio", "hablame sobre el bohrio", "bohrio en la industria", "que hace el bohrio?", "información sobre el bohrio", "hablame sobre el elemento con número atómico 107", "hablame sobre el elemento con numero atomico 107", "107", "el bohrio" ],
+    "responses": ["El bohrio (Bh) es un metal de transición transuránico con número atómico 107, masa atómica de 270 u, configuración electrónica [Rn] 5f14 6d5 7s2, densidad estimada de 37 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 1500 °C y un punto de ebullición estimado de 3300 °C, descubierto por Albert Ghiorso y colaboradores en 1981."]
+},
+{
+    "tag": "hasio",
+    "patterns": [ "hassio", "qué es el hassio?", "que es el hassio?", "cómo es el hassio?", "como es el hassio?", "háblame sobre el hassio", "hablame sobre el hassio", "hassio en la industria", "que hace el hassio?", "información sobre el hassio", "hablame sobre el elemento con número atómico 108", "hablame sobre el elemento con numero atomico 108", "el hassio", "hasio", "qué es el hasio?", "que es el hasio?", "cómo es el hasio?", "como es el hasio?", "háblame sobre el hasio", "hablame sobre el hasio", "hasio en la industria", "que hace el hasio?", "información sobre el hasio", "hablame sobre el elemento con número atómico 108", "hablame sobre el elemento con numero atomico 108", "el hasio" ],
+    "responses": ["El hasio (Hs) es un metal de transición transuránico con número atómico 108, masa atómica de 277 u, configuración electrónica [Rn] 5f14 6d6 7s2, densidad estimada de 40 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 1400 °C y un punto de ebullición estimado de 3200 °C, descubierto por Peter Armbruster y colaboradores en 1984."]
+},
+{
+    "tag": "meitnerio",
+    "patterns": [ "meitnerio", "Mt", "elemento Mt", "qué es el meitnerio?", "que es el meitnerio?", "cómo es el meitnerio?", "como es el meitnerio?", "háblame sobre el meitnerio", "hablame sobre el meitnerio", "meitnerio en la industria", "que hace el meitnerio?", "información sobre el meitnerio", "hablame sobre el elemento con número atómico 109", "hablame sobre el elemento con numero atomico 109", "109", "el meitnerio" ],
+    "responses": ["El meitnerio (Mt) es un metal de transición transuránico con número atómico 109, masa atómica de 278 u, configuración electrónica [Rn] 5f14 6d7 7s2, densidad estimada de 37 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 1100 °C y un punto de ebullición estimado de 2900 °C, descubierto por Peter Armbruster y colaboradores en 1982."]
+},
+{
+    "tag": "darmstadtio",
+    "patterns": [ "darmstadtio", "qué es el darmstadtio?", "que es el darmstadtio?", "cómo es el darmstadtio?", "como es el darmstadtio?", "háblame sobre el darmstadtio", "hablame sobre el darmstadtio", "darmstadtio en la industria", "que hace el darmstadtio?", "información sobre el darmstadtio", "hablame sobre el elemento con número atómico 110", "hablame sobre el elemento con numero atomico 110", "el darmstadtio", "darmstatio", "qué es el darmstatio?", "que es el darmstatio?", "cómo es el darmstatio?", "como es el darmstatio?", "háblame sobre el darmstatio", "hablame sobre el darmstatio", "darmstatio en la industria", "que hace el darmstatio?", "información sobre el darmstatio", "hablame sobre el elemento con número atómico 110", "hablame sobre el elemento con numero atomico 110", "el darmstatio" ],
+    "responses": ["El darmstadtio (Ds) es un metal de transición transuránico con número atómico 110, masa atómica de 281 u, configuración electrónica [Rn] 5f14 6d9 7s2, densidad estimada de 35 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 1000 °C y un punto de ebullición estimado de 2800 °C, descubierto por Peter Armbruster y colaboradores en 1994."]
+},
+{
+    "tag": "roentgenio",
+    "patterns": ["roentgenio", "Rg", "información sobre roentgenio", "qué es el roentgenio?", "que es el roentgenio?", "cómo es el roentgenio?", "como es el roentgenio?", "háblame sobre el roentgenio", "hablame sobre el roentgenio", "roentgenio en la industria", "que hace el roentgenio?", "información sobre el roentgenio", "hablame sobre el elemento con número atómico 111", "hablame sobre el elemento con numero atomico 111", "111", "el roentgenio"],
+    "responses": ["El roentgenio (Rg) es un metal de transición transuránico con número atómico 111, masa atómica de 280 u, configuración electrónica [Rn] 5f14 6d10 7s2, densidad estimada de 40 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 1000 °C y un punto de ebullición estimado de 2700 °C, descubierto por Peter Armbruster y colaboradores en 1994."]
+  },
+  {
+    "tag": "copernicio",
+    "patterns": ["copernicio", "Cn", "información sobre copernicio", "qué es el copernicio?", "que es el copernicio?", "cómo es el copernicio?", "como es el copernicio?", "háblame sobre el copernicio", "hablame sobre el copernicio", "copernicio en la industria", "que hace el copernicio?", "información sobre el copernicio", "hablame sobre el elemento con número atómico 112", "hablame sobre el elemento con numero atomico 112", "112", "el copernicio"],
+    "responses": ["El copernicio (Cn) es un metal de transición transuránico con número atómico 112, masa atómica de 285 u, configuración electrónica [Rn] 5f14 6d10 7s2, densidad estimada de 30 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 1000 °C y un punto de ebullición estimado de 2500 °C, descubierto por Sigurd Hofmann y colaboradores en 2009."]
+  },
+  {
+    "tag": "nihonio",
+    "patterns": ["nihonio", "Nh", "información sobre nihonio", "qué es el nihonio?", "que es el nihonio?", "cómo es el nihonio?", "como es el nihonio?", "háblame sobre el nihonio", "hablame sobre el nihonio", "nihonio en la industria", "que hace el nihonio?", "información sobre el nihonio", "hablame sobre el elemento con número atómico 113", "hablame sobre el elemento con numero atomico 113", "113", "el nihonio"],
+    "responses": ["El nihonio (Nh) es un metal de transición transuránico con número atómico 113, masa atómica de 284 u, configuración electrónica [Rn] 5f14 6d10 7s2 7p1, densidad estimada de 34 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.6, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 800 °C y un punto de ebullición estimado de 2100 °C, descubierto por el equipo de la Universidad de RIKEN en 2004."]
+  },
+  {
+    "tag": "flerovio",
+    "patterns": ["flerovio", "Fl", "información sobre flerovio", "qué es el flerovio?", "que es el flerovio?", "cómo es el flerovio?", "como es el flerovio?", "háblame sobre el flerovio", "hablame sobre el flerovio", "flerovio en la industria", "que hace el flerovio?", "información sobre el flerovio", "hablame sobre el elemento con número atómico 114", "hablame sobre el elemento con numero atomico 114", "114", "el flerovio"],
+    "responses": ["El flerovio (Fl) es un metal transuránico con número atómico 114, masa atómica de 289 u, configuración electrónica [Rn] 5f14 6d10 7s2 7p2, densidad estimada de 29 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.3, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 1000 °C y un punto de ebullición estimado de 2200 °C, descubierto por el equipo de JINR (Dubna) en 1998."]
+  },
+  {
+    "tag": "moscovio",
+    "patterns": ["moscovio", "Mc", "información sobre moscovio", "qué es el moscovio?", "que es el moscovio?", "cómo es el moscovio?", "como es el moscovio?", "háblame sobre el moscovio", "hablame sobre el moscovio", "moscovio en la industria", "que hace el moscovio?", "información sobre el moscovio", "hablame sobre el elemento con número atómico 115", "hablame sobre el elemento con numero atomico 115", "115", "el moscovio"],
+    "responses": ["El moscovio (Mc) es un metal transuránico con número atómico 115, masa atómica de 288 u, configuración electrónica [Rn] 5f14 6d10 7s2 7p3, densidad estimada de 30 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 1.6, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 800 °C y un punto de ebullición estimado de 1700 °C, descubierto por el equipo de JINR (Dubna) en 2003."]
+  },
+  {
+    "tag": "livermorio",
+    "patterns": ["livermorio", "Lv", "información sobre livermorio", "qué es el livermorio?", "que es el livermorio?", "cómo es el livermorio?", "como es el livermorio?", "háblame sobre el livermorio", "hablame sobre el livermorio", "livermorio en la industria", "que hace el livermorio?", "información sobre el livermorio", "hablame sobre el elemento con número atómico 116", "hablame sobre el elemento con numero atomico 116", "116", "el livermorio"],
+    "responses": ["El livermorio (Lv) es un no metal transuránico con número atómico 116, masa atómica de 293 u, configuración electrónica [Rn] 5f14 6d10 7s2 7p4, densidad estimada de 35 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 2.0, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 600 °C y un punto de ebullición estimado de 1500 °C, descubierto por el equipo de JINR (Dubna) en 2000."]
+  },
+  {
+    "tag": "teneso",
+    "patterns": ["teneso", "Ts", "información sobre teneso", "qué es el teneso?", "que es el teneso?", "cómo es el teneso?", "como es el teneso?", "háblame sobre el teneso", "hablame sobre el teneso", "teneso en la industria", "que hace el teneso?", "información sobre el teneso", "hablame sobre el elemento con número atómico 117", "hablame sobre el elemento con numero atomico 117", "117", "el teneso"],
+    "responses": ["El teneso(Ts) es un halógeno transuránico con número atómico 117, masa atómica de 294 u, configuración electrónica [Rn] 5f14 6d10 7s2 7p5, densidad estimada de 35 g/cm3, estado sólido a temperatura ambiente, electronegatividad estimada de 2.0, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de 450 °C y un punto de ebullición estimado de 1300 °C, descubierto por el equipo de JINR (Dubna) y Oak Ridge National Laboratory en 2010."]
+},
+{
+    "tag": "oganeson",
+    "patterns": ["oganeson", "Og", "información sobre oganeson", "qué es el oganeson?", "que es el oganeson?", "cómo es el oganeson?", "como es el oganeson?", "háblame sobre el oganeson", "hablame sobre el oganeson", "oganeson en la industria", "que hace el oganeson?", "información sobre el oganeson", "hablame sobre el elemento con número atómico 118", "hablame sobre el elemento con numero atomico 118", "118", "el oganeson"],
+    "responses": ["El oganesón (Og) es un gas noble transuránico con número atómico 118, masa atómica de 294 u, configuración electrónica [Rn] 5f14 6d10 7s2 7p6, densidad estimada de 5.1 g/cm3, estado gaseoso a temperatura ambiente, electronegatividad estimada de 2.0, se forma artificialmente, se utiliza en investigaciones científicas, con un punto de fusión estimado de -10 °C y un punto de ebullición estimado de 150 °C, descubierto por el equipo de JINR (Dubna) en 2002."]
+}
+
+]
+
+}
